@@ -45,7 +45,7 @@
                             <a href="#new" class="nav__link">New</a>
                         </li>
 
-                        <a href="./html/shop.html" class="button button--ghost">shop</a>
+                        <a href="./html/shop.php" class="button button--ghost">shop</a>
                     </ul>
 
                     <div class="nav__close" id="nav-close">

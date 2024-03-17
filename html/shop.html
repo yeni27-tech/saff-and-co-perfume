@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saff & Co Perfume</title>
     <link rel="stylesheet" href="../css/landing_page.css"/>
-    <!--
-    - google font link
-    -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+
+    <!--========= google font link =========-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
-    <!--icon-->
+
+    <!--============== Feather Icons ===============-->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!--=============== icon =================-->
     <link rel="shortcut icon" href="../icon/logo-black.png" type="image/x-icon">
-    <!--
-    - custom css link
-    -->
+    <!--=============== custom css link ==========-->
     <link rel="stylesheet" href="../css/style-prefix.css">
 </head>
 <body>
+
   <!--PHP-->
   <!-------------------------------------------------------------------------->
     <div class="overlay" data-overlay></div>
@@ -28,7 +30,7 @@
 
 
 
-<!-- MODAL -->
+<!--=============== MODAL ==================-->
 
 <div class="modal" data-modal>
 
@@ -75,7 +77,7 @@
 
 
 
-<!-- NOTIFICATION TOAST -->
+<!--=========== NOTIFICATION TOAST =============-->
 
 <div class="notification-toast" data-toast>
 
@@ -107,26 +109,323 @@
 
 
 
-  <!---
-    -navbar
-  -->
+  <!--================ navbar =============-->
   <section id="navbar">
-    
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="#" class="header-logo">
+          <img src="../icon/logo-black.png" alt="Anon's logo" width="120" height="36">
+        </a>
+
+        <div class="header-search-container">
+          <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="header-user-actions">
+
+          <button class="action-btn">
+            <a href="../loginsystem/login.php">
+            <ion-icon name="person-outline" ></ion-icon>
+            </a>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="count"></span>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count"></span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Home</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Categories</a>
+
+            <div class="dropdown-panel">
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Electronics</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Desktop</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Laptop</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Camera</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Tablet</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Headphone</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/electronics-banner-1.jpg" alt="headphone collection" width="250"
+                      height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Men's</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Formal</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Casual</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Sports</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Jacket</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Sunglasses</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/mens-banner.jpg" alt="men's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Women's</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Formal</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Casual</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Perfume</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Cosmetics</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Bags</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/womens-banner.jpg" alt="women's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Electronics</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Smart Watch</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Smart TV</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Keyboard</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Mouse</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Microphone</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/electronics-banner-2.jpg" alt="mouse collection" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Men's</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Shirt</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Shorts & Jeans</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Safety Shoes</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Wallet</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Women's</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Dress & Frock</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Earrings</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Necklace</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Makeup Kit</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Jewelry</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Earrings</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Couple Rings</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Necklace</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Bracelets</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Perfume</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Clothes Perfume</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Deodorant</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Flower Fragrance</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Air Freshener</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Blog</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Hot Offers</a>
+          </li>
+
+        </ul>
+
+      </div>
+      </nav>
+
   </section>
 
 
 
 
 
-  <!--
-    - MAIN
-  -->
+  <!--============ MAIN ===============-->
 
   <main>
 
-    <!--
-      - BANNER
-    -->
+    <!--=============== BANNER ============-->
 
     <div class="banner">
 
@@ -202,9 +501,7 @@
 
 
 
-    <!--
-      - CATEGORY
-    -->
+    <!--============== CATEGORY ===========-->
 
     <div class="category">
 
@@ -377,15 +674,85 @@
       </div>
 
     </div>
-<!--------NAVBAR SELESAI----------------->
+<!--================  bagian atas done ==============-->
+
+
+
+<!--================== produck =======================--->
+<section class="products" id="products">
+    <h2><span>Produk Unggulan</span> Kami</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde eum, ab fuga possimus iste.</p>
+
+    <div class="row">
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><ion-icon name="cart-outline"></ion-icon></i></a>
+          <a href="#" class="item-detail-button"><ion-icon name="eye-outline"></ion-icon></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../img/CASCAVEL/CASCAVEL-03.aa033d97.webp" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Coffee Beans 1</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><ion-icon name="cart-outline"></ion-icon></i></a>
+          <a href="#" class="item-detail-button"><ion-icon name="eye-outline"></ion-icon></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../img/CHNO/CHNO-02.7abfe088.webp" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Coffee Beans 1</h3>
+          <div class="product-stars">
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><ion-icon name="cart-outline"></ion-icon></i></a>
+          <a href="#" class="item-detail-button"><ion-icon name="eye-outline"></ion-icon></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../img/LOUI/LOUI-01.f111a420.webp" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Coffee Beans 1</h3>
+          <div class="product-stars">
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
     
 </body>
- <!--
-    - ionicon link
-  -->
+
+ <!--- ionicon link-->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
