@@ -269,7 +269,7 @@
             <section class="section discount">
                 <div class="discount__container container grid">
                     <div class="discount__data">
-                        <h2 class="discount__title">50% Discount <br> On New Products</h2>
+                        <h2 class="discount__title">20% Discount <br> On New Products</h2>
                         <a href="#" class="button">Go to new</a>
                     </div>
                 
@@ -291,7 +291,7 @@
                             
 
                                 <button class="button new__button">
-                                    <i class='bx bx-cart-alt new__icon'></i>
+                                    <a href="./loginsystem/login.php"><i class='bx bx-cart-alt new__icon'></i></a>
                                 </button>
                             </div>
         
@@ -302,7 +302,7 @@
                                 
 
                                 <button class="button new__button">
-                                    <i class='bx bx-cart-alt new__icon'></i>
+                                    <a href="./loginsystem/login.php"><i class='bx bx-cart-alt new__icon'></i></a>
                                 </button>
                             </div>
         
@@ -310,9 +310,9 @@
                                 <div class="new__tag">New</div>
                                 <img src="./img/TROUPLE/TROUPE-03.08007d5b.webp" alt="" class="new__img">
                                 <h3 class="new__title">TROUPE</h3>
-                               
+                            
                                 <button class="button new__button">
-                                    <i class='bx bx-cart-alt new__icon'></i>
+                                    <a href="./loginsystem/login.php"><i class='bx bx-cart-alt new__icon'></i></a>
                                 </button>
                             </div>
         
@@ -323,7 +323,7 @@
 
 
                                 <button class="button new__button">
-                                    <i class='bx bx-cart-alt new__icon'></i>
+                                    <a href="./loginsystem/login.php"><i class='bx bx-cart-alt new__icon'></i></a>
                                 </button>
                             </div>
         
@@ -334,7 +334,7 @@
                                
 
                                 <button class="button new__button">
-                                    <i class='bx bx-cart-alt new__icon'></i>
+                                    <a href="./loginsystem/login.php"><i class='bx bx-cart-alt new__icon'></i></a>
                                 </button>
                             </div>
         
@@ -344,7 +344,7 @@
                                 <h3 class="new__title">TROUPE</h3>
                     
                                 <button class="button new__button">
-                                    <i class='bx bx-cart-alt new__icon'></i>
+                                    <a href="./loginsystem/login.php"><i class='bx bx-cart-alt new__icon'></i></a>
                                 </button>
                             </div>
                         </div>
@@ -376,33 +376,36 @@
                     </div>
 
                     <div class="footer__content">
-                        <h3 class="footer__title">About</h3>
+                        <h3 class="footer__title">Explore</h3>
                         
                         <ul class="footer__links">
                             <li>
-                                <a href="#" class="footer__link">About Us</a>
+                                <a href="./html/shop.html" class="footer__link">Shop All</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">Features</a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link">News</a>
+                                <a href="#" class="footer__link">Discover</a>
                             </li>
                         </ul>
                     </div>
 
                     <div class="footer__content">
-                        <h3 class="footer__title">Our Services</h3>
+                        <h3 class="footer__title">Shop</h3>
                         
                         <ul class="footer__links">
                             <li>
-                                <a href="#" class="footer__link">Pricing</a>
+                                <a href="https://shopee.co.id/shop/267621044?utm_campaign=-&utm_content=----&utm_medium=affiliates&utm_source=an_11043180003&utm_term=aup6jegwv6w9&is_from_login=true" class="footer__link">Shopee</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">Discounts</a>
+                                <a href="https://www.lazada.co.id/shop/saff-co?path=index.htm&trafficFrom=17449020_310877&laz_trackid=2:mm_288850374_100250779_2059350573:clkgi48qp1hpghsep9qgem&mkttid=clkgi48qp1hpghsep9qgem" class="footer__link">Lazada</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">Shipping mode</a>
+                                <a href="https://www.tokopedia.com/saffnco" class="footer__link">Tokopedia</a>
+                            </li>
+                            <li>
+                                <a href="https://www.zalora.co.id/store/saff-co-official-store" class="footer_link">Zalora</a>
+                            </li>
+                            <li>
+                                <a href="https://www.blibli.com/merchant/saff-co-official-store/SAC-70080?_branch_match_id=1265574465198110731&utm_source=Web&utm_medium=Share-Store&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8rJBCK9xIICvZzMvGx908CwrEpPw%2BAkxyQA5gm00SMAAAA%3D&pickupPointCode=ALL_LOCATIONS" class="footer_link">Blili</a>
                             </li>
                         </ul>
                     </div>
@@ -412,19 +415,16 @@
                         
                         <ul class="footer__links">
                             <li>
-                                <a href="#" class="footer__link">Blog</a>
+                                <a href="#" class="footer__link">About</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">About us</a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link">Our mision</a>
+                                <a href="#" class="footer__link">Career</a>
                             </li>
                         </ul>
                     </div>
                 </div>
 
-                <span class="footer__copy">&#169; yeka 2024</span>
+                <span class="footer__copy">&#169; Yeni Faturohmag & Khalila Puspita 2024</span>
 
                 <img src="assets/img/footer1-img.png" alt="" class="footer__img-one">
                 <img src="assets/img/footer2-img.png" alt="" class="footer__img-two">

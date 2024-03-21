@@ -87,6 +87,13 @@
   scroll-behavior: smooth;
 }
 
+.new__button> a{
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  display: none;
+}
+
 html{
   scroll-behavior: smooth;
 }
