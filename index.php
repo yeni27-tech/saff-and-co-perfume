@@ -291,7 +291,7 @@
                             
 
                                 <button class="button new__button">
-                                    <a href="./loginsystem/login.php"><i class='bx bx-cart-alt new__icon'></i></a>
+                                    <a href="./loginsystem/login.php" style="color: white;"><i class='bx bx-cart-alt new__icon'></i></a>
                                 </button>
                             </div>
         
@@ -302,7 +302,7 @@
                                 
 
                                 <button class="button new__button">
-                                    <a href="./loginsystem/login.php"><i class='bx bx-cart-alt new__icon'></i></a>
+                                    <a href="./loginsystem/login.php" style="color: white;"><i class='bx bx-cart-alt new__icon'></i></a>
                                 </button>
                             </div>
         
@@ -312,7 +312,7 @@
                                 <h3 class="new__title">TROUPE</h3>
                             
                                 <button class="button new__button">
-                                    <a href="./loginsystem/login.php"><i class='bx bx-cart-alt new__icon'></i></a>
+                                    <a href="./loginsystem/login.php" style="color: white;"><i class='bx bx-cart-alt new__icon'></i></a>
                                 </button>
                             </div>
         
@@ -323,7 +323,7 @@
 
 
                                 <button class="button new__button">
-                                    <a href="./loginsystem/login.php"><i class='bx bx-cart-alt new__icon'></i></a>
+                                    <a href="./loginsystem/login.php" style="color: white;"><i class='bx bx-cart-alt new__icon'></i></a>
                                 </button>
                             </div>
         
@@ -334,7 +334,7 @@
                                
 
                                 <button class="button new__button">
-                                    <a href="./loginsystem/login.php"><i class='bx bx-cart-alt new__icon'></i></a>
+                                    <a href="./loginsystem/login.php" style="color: white;"><i class='bx bx-cart-alt new__icon'></i></a>
                                 </button>
                             </div>
         
@@ -344,7 +344,7 @@
                                 <h3 class="new__title">TROUPE</h3>
                     
                                 <button class="button new__button">
-                                    <a href="./loginsystem/login.php"><i class='bx bx-cart-alt new__icon'></i></a>
+                                    <a href="./loginsystem/login.php" style="color: white;"><i class='bx bx-cart-alt new__icon'></i></a>
                                 </button>
                             </div>
                         </div>
