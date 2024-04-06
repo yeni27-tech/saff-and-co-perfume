@@ -23,8 +23,7 @@
         <header class="header" id="header">
             <nav class="nav container">
                 <a href="#" class="nav__logo">
-                    <img src="./icon/logo-black.png" alt="" class="nav__logo-img">
-                    Saff & Co.
+                    <img src="./icon/logo-white.webp" alt="" class="nav__logo-img" style="width: 2.9rem;">
                 </a>
 
                 <div class="nav__menu" id="nav-menu">
@@ -290,8 +289,8 @@
                                 <h3 class="new__title">TROUPE</h3>
                             
 
-                                <button class="button new__button">
-                                    <a href="./loginsystem/login.php" style="color: white;"><i class='bx bx-cart-alt new__icon'></i></a>
+                                <button href="#" class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
                                 </button>
                             </div>
         
@@ -301,8 +300,8 @@
                                 <h3 class="new__title">TROUPE</h3>
                                 
 
-                                <button class="button new__button">
-                                    <a href="./loginsystem/login.php" style="color: white;"><i class='bx bx-cart-alt new__icon'></i></a>
+                                <button href="#" class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
                                 </button>
                             </div>
         
@@ -311,8 +310,8 @@
                                 <img src="./img/TROUPLE/TROUPE-03.08007d5b.webp" alt="" class="new__img">
                                 <h3 class="new__title">TROUPE</h3>
                             
-                                <button class="button new__button">
-                                    <a href="./loginsystem/login.php" style="color: white;"><i class='bx bx-cart-alt new__icon'></i></a>
+                                <button href="#" class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
                                 </button>
                             </div>
         
@@ -322,8 +321,8 @@
                                 <h3 class="new__title">OSTARA</h3>
 
 
-                                <button class="button new__button">
-                                    <a href="./loginsystem/login.php" style="color: white;"><i class='bx bx-cart-alt new__icon'></i></a>
+                                <button href="#" class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
                                 </button>
                             </div>
         
@@ -331,10 +330,10 @@
                                 <div class="new__tag">New</div>
                                 <img src="./img/OSTARA/OSTARA-02.7d38953b.webp" alt="" class="new__img">
                                 <h3 class="new__title">OSTARA</h3>
-                               
+                        
 
-                                <button class="button new__button">
-                                    <a href="./loginsystem/login.php" style="color: white;"><i class='bx bx-cart-alt new__icon'></i></a>
+                                <button href="#" class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
                                 </button>
                             </div>
         
@@ -343,8 +342,8 @@
                                 <img src="./img/TROUPLE/TROUPE-03.08007d5b.webp" alt="" class="new__img">
                                 <h3 class="new__title">TROUPE</h3>
                     
-                                <button class="button new__button">
-                                    <a href="./loginsystem/login.php" style="color: white;"><i class='bx bx-cart-alt new__icon'></i></a>
+                                <button href="#" class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
                                 </button>
                             </div>
                         </div>
@@ -402,10 +401,10 @@
                                 <a href="https://www.tokopedia.com/saffnco" class="footer__link">Tokopedia</a>
                             </li>
                             <li>
-                                <a href="https://www.zalora.co.id/store/saff-co-official-store" class="footer_link">Zalora</a>
+                                <a href="https://www.zalora.co.id/store/saff-co-official-store" class="footer__link">Zalora</a>
                             </li>
                             <li>
-                                <a href="https://www.blibli.com/merchant/saff-co-official-store/SAC-70080?_branch_match_id=1265574465198110731&utm_source=Web&utm_medium=Share-Store&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8rJBCK9xIICvZzMvGx908CwrEpPw%2BAkxyQA5gm00SMAAAA%3D&pickupPointCode=ALL_LOCATIONS" class="footer_link">Blili</a>
+                                <a href="https://www.blibli.com/merchant/saff-co-official-store/SAC-70080?_branch_match_id=1265574465198110731&utm_source=Web&utm_medium=Share-Store&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8rJBCK9xIICvZzMvGx908CwrEpPw%2BAkxyQA5gm00SMAAAA%3D&pickupPointCode=ALL_LOCATIONS" class="footer__link">Blili</a>
                             </li>
                         </ul>
                     </div>

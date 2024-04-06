@@ -15,11 +15,6 @@
     <!--================App JS===================-->
     <script src="../js/app.js"></script>
 
-    <!--============== alpine.js ===================-->
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.7/dist/cdn.min.js"></script>
-
-    <!--============== Feather Icons ===============-->
-    <script src="https://unpkg.com/feather-icons"></script>
 
     <!--=============== icon =================-->
     <link rel="shortcut icon" href="../icon/logo-black.png" type="image/x-icon">
@@ -116,7 +111,7 @@
 
 
   <!--================ navbar =============-->
-  <section id="navbar">
+  <section id="navbar" x-data>
     <div class="header-main">
 
       <div class="container">
@@ -142,14 +137,197 @@
           </button>
 
           <button class="action-btn">
-            <ion-icon name="heart-outline"></ion-icon>
-            <span class="count"></span>
+            <a href="#" id="shopping-cart-button"><ion-icon name="bag-handle-outline"></ion-icon>
+            </a>
+            <span class="count" x-show="$store.cart.quantity" x-text="$store.cart.quantity"></span>
           </button>
 
-          <button class="action-btn">
-            <ion-icon name="bag-handle-outline"></ion-icon>
-            <span class="count"></span>
-          </button>
+
+
+           <!-- Shopping Cart start -->
+    <div class="shop-cart">
+      <template x-for="(item, index) in $store.cart.items" x-keys="index">
+      <div class="cart-item">
+        <img :src="`../img/${item.img}`" :alt="item.name">
+        <div class="item-detail">
+          <h3 x-text="item.name"></h3>
+          <div class="item-price">
+            <span x-text="rupiah(item.price)"></span> &times;
+            <button id="remove" @click="$store.cart.remove(item.id)"> &minus;</button>
+            <span x-text="item.quantity"></span>
+            <button id="add" @click="$store.cart.add(item)"> &plus;</button> &equals;
+            <span x-text="rupiah(item.total)"></span>
+          </div>
+        </div>
+      </div>
+      </template>
+      <div class="container-subtotal" x-show="!$store.cart.items.lenght > 0">
+      <h4><center><ion-icon name="cart"></ion-icon></center><br> Total: <span x-text="rupiah($store.cart.total)"></span></h4>
+      </div>
+
+      <div class="form-container" x-show="!$store.cart.items.lenght">
+        <form action="" id="checkoutForm">
+          <h5>cstomer detail</h5>
+
+          <label for="name">
+            <span>Name</span>
+            <input type="text" name="name" id="name">
+          </label>
+
+          <label for="email">
+            <span>Email</span>
+            <input type="email" name="email" id="email-field">
+          </label>
+
+          <label for="phone">
+            <span>Phone</span>
+            <input type="number" name="phone" id="phone" autocomplete="off">
+          </label>
+
+          <button class="checkout-button" type="submit" id="checkout-button" value="checkout">Checkout</button>
+        </form>
+      </div>
+    </div>
+    <!-- Shopping Cart end -->
+
+
+          <script>
+          //Toggle class active untuk shopping cart
+          const shoppingCart = document.querySelector('.shop-cart');
+document.querySelector('#shopping-cart-button').onclick = (e) => {
+  shoppingCart.classList.toggle('active');
+  e.preventDefault();
+};
+          </script>
+          <style>
+
+            /* Shopping Cart */
+.shop-cart {
+  position: absolute;
+  right: -100%;
+  top: 15%;
+  height: 100vh;
+  width: 20rem;
+  padding: 0 1.5rem;
+  background-color: #fff;
+  color: black;
+  transition: 0.3s;
+  z-index: 99;
+  border: 1px solid rgb(196, 117, 130);
+}
+
+.item-price button {
+  border: 1px solid gray;
+  background-color: rgba(31, 30, 30, 0.443);
+  color: white;
+  height: 17px;
+  width: 17px;
+  justify-content: space-around;
+}
+
+.item-price {
+  margin: 8px;
+}
+
+.shop-cart.active {
+  right: 0;
+}
+
+.shop-cart .cart-item {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed #666;
+  position: relative;
+}
+
+.shop-cart img {
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.shop-cart .item-price {
+  font-size: 0.7rem;
+  display: inline-flex;
+}
+
+.shop-cart .remove-item {
+  position: absolute;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.shop-cart .remove-item:hover {
+  color: var(--primary);
+}
+.item-price.cart-item#add,
+.item-price.cart-item#remove{
+  display: inline-block;
+  cursor: pointer;
+  margin-left:8px;
+  margin-right: 10;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border: 1px solid gray;
+}
+
+.shop-cart h4{
+  font-size: 1rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.shop-cart h3 {
+  font-size: 0.7;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: 1px dashed black;
+  padding: 1rem;
+}
+
+.form-container h5 {
+  text-align: center;
+}
+
+.form-container label {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.form-container span {
+  text-align: right;
+}
+
+.form-container input {
+  background-color: white;
+  padding: 5px;
+  font-size: 1rem;
+  width: 70%;
+}
+
+.form-container .checkout-button {
+  padding: 6px;
+  background-color: royalblue;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  margin:  1rem auto;
+  cursor: pointer;
+}
+          </style>
+
+
+
+
 
         </div>
 
@@ -685,21 +863,22 @@
 
 
 <!--================== produck =======================--->
-<section class="products" id="products">
+<section class="products" id="products" x-data="products">
     <h2><span>Produk Unggulan</span> Kami</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde eum, ab fuga possimus iste.</p>
 
     <div class="row">
+      <template x-for="(item, index) in items" x-key="index">
       <div class="product-card">
         <div class="product-icons">
-          <a href="#"><ion-icon name="cart-outline"></ion-icon></i></a>
+          <a href="#" @click.prevent="$store.cart.add(item)" ><ion-icon name="cart-outline"></ion-icon></i></a>
           <a href="#" class="item-detail-button"><ion-icon name="eye-outline"></ion-icon></i></a>
         </div>
         <div class="product-image">
-          <img src="../img/CASCAVEL/CASCAVEL-03.aa033d97.webp" alt="Product 1">
+          <img :src="`../img/${item.img}`" :alt="item.name">
         </div>
         <div class="product-content">
-          <h3>Coffee Beans 1</h3>
+          <h3 x-text="item.name"></h3>
           <div class="product-stars">
             <i data-feather="star" class="star-full"></i>
             <i data-feather="star" class="star-full"></i>
@@ -707,49 +886,10 @@
             <i data-feather="star" class="star-full"></i>
             <i data-feather="star"></i>
           </div>
-          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          <div class="product-price"><span x-text="rupiah(item.price)"></div>
         </div>
       </div>
-      <div class="product-card">
-        <div class="product-icons">
-          <a href="#"><ion-icon name="cart-outline"></ion-icon></i></a>
-          <a href="#" class="item-detail-button"><ion-icon name="eye-outline"></ion-icon></i></a>
-        </div>
-        <div class="product-image">
-          <img src="../img/CHNO/CHNO-02.7abfe088.webp" alt="Product 1">
-        </div>
-        <div class="product-content">
-          <h3>Coffee Beans 1</h3>
-          <div class="product-stars">
-            <i data-feather="star"></i>
-            <i data-feather="star"></i>
-            <i data-feather="star"></i>
-            <i data-feather="star"></i>
-            <i data-feather="star"></i>
-          </div>
-          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
-        </div>
-      </div>
-      <div class="product-card">
-        <div class="product-icons">
-          <a href="#"><ion-icon name="cart-outline"></ion-icon></i></a>
-          <a href="#" class="item-detail-button"><ion-icon name="eye-outline"></ion-icon></i></a>
-        </div>
-        <div class="product-image">
-          <img src="../img/LOUI/LOUI-01.f111a420.webp" alt="Product 1">
-        </div>
-        <div class="product-content">
-          <h3>Coffee Beans 1</h3>
-          <div class="product-stars">
-            <i data-feather="star"></i>
-            <i data-feather="star"></i>
-            <i data-feather="star"></i>
-            <i data-feather="star"></i>
-            <i data-feather="star"></i>
-          </div>
-          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
-        </div>
-      </div>
+      </template>
     </div>
   </section>
 
@@ -758,10 +898,19 @@
     
 </body>
 
+<!--============== alpine.js ===================-->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.7/dist/cdn.min.js"></script>
+
+   <!--App.js-->
+<script src="../js/app.js"></script>
+
  <!--- ionicon link-->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
   <!--custom js-->
     <script src="../js/navbar.js"></script>
+
+    <!--============== Feather Icons ===============-->
+    <script src="https://unpkg.com/feather-icons"></script>
 </html>

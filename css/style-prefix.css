@@ -80,6 +80,10 @@
           box-sizing: border-box;
 }
 
+.banner {
+  margin: 100px 100px;
+}
+
 a { text-decoration: none; }
 
 li { list-style: none; }
