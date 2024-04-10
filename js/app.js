@@ -1,31 +1,97 @@
 document.addEventListener("alpine:init", () => {
     Alpine.data("products", () => ({
-    items: [
+      items: [
         {
-        id: 1,
-        name: "CASCAVEL",
-        img: "../img/CASCAVEL/Cascavel.5f123e66.webp",
-        price: 100000,
+          id: 1,
+          name: "CASCAVEL",
+          img: "../img/CASCAVEL/Cascavel.5f123e66.webp",
+          price: 100000,
         },
         {
-        id: 2,
-        name: "CHNO",
-        img: "../img/CASCAVEL/CASCAVEL-01.4dcab07b.webp",
-        price: 105000,
+          id: 2,
+          name: "CHNO",
+          img: "../img/CASCAVEL/CASCAVEL-01.4dcab07b.webp",
+          price: 105000,
         },
         {
-        id: 3,
-        name: "COCO",
-        img: "../img/CASCAVEL/CASCAVEL-02.7e5cba0c.webp",
-        price: 150000,
+          id: 3,
+          name: "COCO",
+          img: "../img/CASCAVEL/CASCAVEL-02.7e5cba0c.webp",
+          price: 150000,
         },
         {
-        id: 4,
-        name: "JO",
-        img: "../img/CASCAVEL/CASCAVEL-03.aa033d97.webp",
-        price: 151000,
+          id: 4,
+          name: "ILIAD",
+          img: "../img/CASCAVEL/CASCAVEL-03.aa033d97.webp",
+          price: 151000,
         },
-        ],
+        {
+          id: 5,
+          name: "JO",
+          img: "../img/CASCAVEL/CASCAVEL-03.aa033d97.webp",
+          price: 151000,
+        },
+        {
+          id: 6,
+          name: "JO",
+          img: "../img/CASCAVEL/CASCAVEL-03.aa033d97.webp",
+          price: 151000,
+        },
+        {
+          id: 7,
+          name: "JO",
+          img: "../img/CASCAVEL/CASCAVEL-03.aa033d97.webp",
+          price: 151000,
+        },
+        {
+          id: 8,
+          name: "JO",
+          img: "../img/CASCAVEL/CASCAVEL-03.aa033d97.webp",
+          price: 151000,
+        },
+        {
+          id: 9,
+          name: "JO",
+          img: "../img/CASCAVEL/CASCAVEL-03.aa033d97.webp",
+          price: 151000,
+        },
+        {
+          id: 10,
+          name: "JO",
+          img: "../img/CASCAVEL/CASCAVEL-03.aa033d97.webp",
+          price: 151000,
+        },
+        {
+          id: 11,
+          name: "JO",
+          img: "../img/CASCAVEL/CASCAVEL-03.aa033d97.webp",
+          price: 151000,
+        },
+        {
+          id: 12,
+          name: "JO",
+          img: "../img/CASCAVEL/CASCAVEL-03.aa033d97.webp",
+          price: 151000,
+        },
+        {
+          id: 13,
+          name: "JO",
+          img: "../img/CASCAVEL/CASCAVEL-03.aa033d97.webp",
+          price: 151000,
+        },
+        {
+          id: 14,
+          name: "JO",
+          img: "../img/CASCAVEL/CASCAVEL-03.aa033d97.webp",
+          price: 151000,
+        },
+        {
+          id: 15,
+          name: "JO",
+          img: "../img/CASCAVEL/CASCAVEL-03.aa033d97.webp",
+          price: 151000,
+        },
+      ],
     }));
 
     Alpine.store('cart', {
