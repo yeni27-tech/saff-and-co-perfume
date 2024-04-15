@@ -67,6 +67,8 @@ function pre_r($array){
     echo '</pre>';
 }
                 ?>
+
+                
                 <div class="row">
                 <div class="col-lg-12">
                   <div class="card shadow mb-0">
