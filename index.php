@@ -207,9 +207,6 @@
                         <h3 class="trick__title">Cascavel</h3>
                         <span class="trick__subtitle"></span>
                         <span class="trick__price"></span>
-                        <button class="button trick__button">
-                            <i class='bx bx-cart-alt trick__icon'></i>
-                        </button>
                     </div>
 
                     <div class="trick__content">
@@ -217,9 +214,6 @@
                         <h3 class="trick__title">CHNO</h3>
                         <span class="trick__subtitle"></span>
                         <span class="trick__price"></span>
-                        <button class="button trick__button">
-                            <i class='bx bx-cart-alt trick__icon'></i>
-                        </button>
                     </div>
 
                     <div class="trick__content">
@@ -227,9 +221,6 @@
                         <h3 class="trick__title">Ilia</h3>
                         <span class="trick__subtitle"></span>
                         <span class="trick__price"></span>
-                        <button class="button trick__button">
-                            <i class='bx bx-cart-alt trick__icon'></i>
-                        </button>
                     </div>
 
                     <div class="trick__content">
@@ -237,9 +228,6 @@
                         <h3 class="trick__title">Loui</h3>
                         <span class="trick__subtitle"></span>
                         <span class="trick__price"></span>
-                        <button class="button trick__button">
-                            <i class='bx bx-cart-alt trick__icon'></i>
-                        </button>
                     </div>
 
                     <div class="trick__content">
@@ -247,9 +235,6 @@
                         <h3 class="trick__title">Maleali</h3>
                         <span class="trick__subtitle"></span>
                         <span class="trick__price"></span>
-                        <button class="button trick__button">
-                            <i class='bx bx-cart-alt trick__icon'></i>
-                        </button>
                     </div>
 
                     <div class="trick__content">
@@ -257,9 +242,6 @@
                         <h3 class="trick__title">Omnia</h3>
                         <span class="trick__subtitle"></span>
                         <span class="trick__price"></span>
-                        <button class="button trick__button">
-                            <i class='bx bx-cart-alt trick__icon'></i>
-                        </button>
                     </div>
                 </div>
             </section>
@@ -272,7 +254,7 @@
                         <a href="#" class="button">Go to new</a>
                     </div>
                 
-                    <img src="./img/TROUPLE/Troupe.d0bbcf37.webp" alt="" class="discount__img">
+                    <img src="./img/TROUPE/Troupe.d0bbcf37.webp" alt="" class="discount__img">
                 </div>
             </section>
 
@@ -285,66 +267,33 @@
                         <div class="swiper-wrapper">
                             <div class="new__content swiper-slide">
                                 <div class="new__tag">New</div>
-                                <img src="./img/TROUPLE/TROUPE-01.5885b973.webp" alt="" class="new__img">
+                                <img src="./img/TROUPE/TROUPE-01.5885b973.webp" alt="" class="new__img">
                                 <h3 class="new__title">TROUPE</h3>
                             
 
-                                <button href="#" class="button new__button">
-                                    <i class='bx bx-cart-alt new__icon'></i>
-                                </button>
                             </div>
         
                             <div class="new__content swiper-slide">
                                 <div class="new__tag">New</div>
-                                <img src="./img/TROUPLE/TROUPE-02.51a4ae6c.webp" alt="" class="new__img">
+                                <img src="./img/TROUPE/TROUPE-02.51a4ae6c.webp" alt="" class="new__img">
                                 <h3 class="new__title">TROUPE</h3>
                                 
 
-                                <button href="#" class="button new__button">
-                                    <i class='bx bx-cart-alt new__icon'></i>
-                                </button>
                             </div>
         
                             <div class="new__content swiper-slide">
                                 <div class="new__tag">New</div>
-                                <img src="./img/TROUPLE/TROUPE-03.08007d5b.webp" alt="" class="new__img">
+                                <img src="./img/TROUPE/TROUPE-03.08007d5b.webp" alt="" class="new__img">
                                 <h3 class="new__title">TROUPE</h3>
                             
-                                <button href="#" class="button new__button">
-                                    <i class='bx bx-cart-alt new__icon'></i>
-                                </button>
                             </div>
+        
         
                             <div class="new__content swiper-slide">
                                 <div class="new__tag">New</div>
-                                <img src="./img/OSTARA/OSTARA-01.d0603486.webp" alt="" class="new__img">
-                                <h3 class="new__title">OSTARA</h3>
-
-
-                                <button href="#" class="button new__button">
-                                    <i class='bx bx-cart-alt new__icon'></i>
-                                </button>
-                            </div>
-        
-                            <div class="new__content swiper-slide">
-                                <div class="new__tag">New</div>
-                                <img src="./img/OSTARA/OSTARA-02.7d38953b.webp" alt="" class="new__img">
-                                <h3 class="new__title">OSTARA</h3>
-                        
-
-                                <button href="#" class="button new__button">
-                                    <i class='bx bx-cart-alt new__icon'></i>
-                                </button>
-                            </div>
-        
-                            <div class="new__content swiper-slide">
-                                <div class="new__tag">New</div>
-                                <img src="./img/TROUPLE/TROUPE-03.08007d5b.webp" alt="" class="new__img">
+                                <img src="./img/TROUPE/TROUPE-03.08007d5b.webp" alt="" class="new__img">
                                 <h3 class="new__title">TROUPE</h3>
                     
-                                <button href="#" class="button new__button">
-                                    <i class='bx bx-cart-alt new__icon'></i>
-                                </button>
                             </div>
                         </div>
                     </div>
@@ -379,7 +328,7 @@
                         
                         <ul class="footer__links">
                             <li>
-                                <a href="./html/shop.html" class="footer__link">Shop All</a>
+                                <a href="./php/login.php" class="footer__link">Shop All</a>
                             </li>
                             <li>
                                 <a href="#" class="footer__link">Discover</a>
@@ -415,9 +364,6 @@
                         <ul class="footer__links">
                             <li>
                                 <a href="#" class="footer__link">About</a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link">Career</a>
                             </li>
                         </ul>
                     </div>
