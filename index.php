@@ -369,7 +369,7 @@
                     </div>
                 </div>
 
-                <span class="footer__copy">&#169; Yeni Faturohmag & Khalila Puspita 2024</span>
+                <span class="footer__copy">&#169; Yeni Faturohmah & Khalila Puspita 2024</span>
 
                 <img src="assets/img/footer1-img.png" alt="" class="footer__img-one">
                 <img src="assets/img/footer2-img.png" alt="" class="footer__img-two">
