@@ -6,6 +6,36 @@
     
     <title>CASCAVEL</title>
     <style>
+        body {
+            background: #000;
+            color: rgb(255, 255, 255);
+        }
+
+        #banner {
+            display: cover;
+            height: 17rem;
+            color: white;
+            width: max-content;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(to bottom,white, white, white,white,black, black);
+            font-size: 12rem;
+            padding-left: 15vh;
+            padding-bottom: 25vh;
+
+        }
+        #banner span {
+            height: 100vh;
+            background:url(../img/CASCAVEL/CASCAVEL-02.7e5cba0c.webp);
+            background-clip: text;
+            color: transparent;
+            font-weight:900;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            padding-right: 24vh
+        }
+
+    
 
 /*================= Font Family =================*/
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap'); 
@@ -62,6 +92,9 @@
             max-height: 100vh;    
             display: flex;
             flex-direction: column;
+            margin-left: 127vh;
+            margin-top: 10vh;
+            border-radius: 10% 10%;
         }
 
         
@@ -112,7 +145,6 @@
             line-height: 6vh;
             text-align: center;
             letter-spacing: 3rem;
-            
             border-right: 4px double rgb(40, 40, 40);
         }
 
@@ -132,7 +164,7 @@
 
         /*character*/
         .char div:not(h4) {
-            color: rgb(128, 0, 0);
+            color: rgb(255, 255, 255);
             width: 5rem;
         }
 
@@ -162,6 +194,10 @@
 </head>
 <body>
 
+    
+
+
+<section id="all">
     <div class="min-content">
         <div class="fadein">
             <img id="f4" src="../img/CASCAVEL/CASCAVEL-02.7e5cba0c.webp" style="width: 65vh; height: 65vh;" />
@@ -173,7 +209,7 @@
             <sript>
             </sript>
 
-            <button id="button">
+            <button class="button book-button">
                 <a href="#">BOOK NOW</a>
             </button>
         </div>
@@ -212,5 +248,8 @@
     </div>
 
     </div>
+
+    <!--end section-->
+     </section>
 </body>
 </html>

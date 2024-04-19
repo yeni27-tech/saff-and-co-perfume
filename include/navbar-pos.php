@@ -7,7 +7,7 @@
 <html lang="en">
 
 <head>
-  <style type="text/css">
+  <style>
 #overlay {
   position: fixed;
   display: none;
@@ -37,20 +37,19 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Stock Control Management System </title>
+  <title>Saff and Co perfume </title>
   <link rel="icon" href="https://www.freeiconspng.com/uploads/sales-icon-7.png">
 
-  <!-- Custom fonts for this template-->
+  <!--fonts-->
   <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
-  <!-- Custom styles for this template-->
+  <!-- styles-->
   <link href="../css/sb-admin-2.min.css" rel="stylesheet">
 
-  <!-- Custom styles for this page -->
-  <link href="../vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+  
 
-  <link rel="stylesheet" href="cart.css" />
+  <link rel="stylesheet" href="../css/navbar-pos.css" />
 </head>
 
 <body id="page-top">
@@ -65,21 +64,28 @@
       <div id="content">
 
         <!-- Topbar -->
-        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+        
+        
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow" >
 
       <a class="sidebar-brand d-flex align-items-center justify-content-center"  style="text-decoration: none; font-size: 18px; font-weight: bold;" href="index.php">
         <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-laugh-wink"></i>
+          <img src="../icon/logo-black.png" alt="" width="22rem">
         </div>
-        <div class="sidebar-brand-text mx-3">Stock Control Management System</div>
+        <div class="sidebar-brand-text mx-3">Saff and Co.</div>
       </a>
+
+      <marquee behavior="smooth" direction="">
+        <span>A symphony for the Senses</span>
+        <span>Oll factory Odyssy</span>
+      </marquee>
 
           <!-- Topbar Navbar -->
           <ul class="navbar-nav ml-auto">
 
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link" href="pos.php" role="button">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">POS</span>
+                <span class="text">Home</span>
               </a>
             </li>
 

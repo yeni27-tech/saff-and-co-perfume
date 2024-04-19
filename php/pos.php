@@ -1,7 +1,7 @@
 <?php
 
 include '../include/connection.php';
-include '../include/topp.php';
+include '../include/navbar-pos.php';
 
 // session_start();
 $product_ids = array();
