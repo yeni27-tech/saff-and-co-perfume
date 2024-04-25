@@ -1,0 +1,21 @@
+.navbar .navbar-expand:not(marquee){
+    background-color: pink;
+    display: fixed;
+}
+marquee{
+    width: 65%;
+}
+
+marquee span{
+    background:linear-gradient(to left, #ee4266 0%, #5E1675 100%);
+    background-clip: text;
+    color:transparent;
+    margin-right: 20rem;
+}
+
+@media screen and (max-width: 768px) {
+marquee{
+    width: 30%;
+}
+
+}
