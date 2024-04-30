@@ -9,7 +9,6 @@
 }
 
 html {
-  box-sizing: border-box;
   -ms-overflow-style: scrollbar;
 }
 
@@ -17,14 +16,6 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-}
-
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 @media (min-width: 576px) {

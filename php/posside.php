@@ -1,4 +1,4 @@
-<!-- SIDE PART NA SUMMARY -->
+<!-- SIDE PART SUMMARY -->
         <div class="card-body col-md-3">
         <?php   
         if(!empty($_SESSION['pointofsale'])):  
@@ -54,7 +54,7 @@ $opt .= "</select>";
                 <div class="input-group-prepend">
                   <span class="input-group-text">Rp </span>
                 </div>
-                <input type="text" class="form-control text-right " value="<?php echo number_format($total, 2); ?>" readonly name="subtotal">
+                <input type="text" class="form-control text-right " value="<?php echo number_format($total); ?>" readonly name="subtotal">
               </div>
             </div>
 
@@ -72,7 +72,7 @@ $opt .= "</select>";
                 <div class="input-group-prepend">
                   <span class="input-group-text">Rp </span>
                 </div>
-                <input type="text" class="form-control text-right " value="<?php echo number_format($lessvat, 2); ?>" readonly name="lessvat">
+                <input type="text" class="form-control text-right " value="<?php echo number_format($lessvat); ?>" readonly name="lessvat">
               </div>
             </div>
 
@@ -90,7 +90,7 @@ $opt .= "</select>";
                 <div class="input-group-prepend">
                   <span class="input-group-text">Rp </span>
                 </div>
-                <input type="text" class="form-control text-right " value="<?php echo number_format($netvat, 2); ?>" readonly name="netvat">
+                <input type="text" class="form-control text-right " value="<?php echo number_format($netvat); ?>" readonly name="netvat">
               </div>
             </div>
 
@@ -108,7 +108,7 @@ $opt .= "</select>";
                 <div class="input-group-prepend">
                   <span class="input-group-text">Rp </span>
                 </div>
-                <input type="text" class="form-control text-right " value="<?php echo number_format($addvat, 2); ?>" readonly name="addvat">
+                <input type="text" class="form-control text-right " value="<?php echo number_format($addvat); ?>" readonly name="addvat">
               </div>
             </div>
 
@@ -126,7 +126,7 @@ $opt .= "</select>";
                 <div class="input-group-prepend">
                   <span class="input-group-text">Rp </span>
                 </div>
-                <input type="text" class="form-control text-right " value="<?php echo number_format($total, 2); ?>" readonly name="total">
+                <input type="text" class="form-control text-right " value="<?php echo number_format($total); ?>" readonly name="total">
               </div>
             </div>
 
@@ -147,15 +147,29 @@ $opt .= "</select>";
               <div class="modal-body">
                   <div class="form-group row text-left mb-2">
 
-                    <div class="col-sm-12 text-center">
-                      <h3 class="py-0">
-                        GRAND TOTAL
-                      </h3>
-                      <h3 class="font-weight-bold py-3 bg-light">
-                         <?php echo 'belanja terlebih dahulu'; ?>
-                         <!--ini ketika keranjang kososng-->
-                      </h3>
-                    </div>
+                    <div class="modal-body">
+    <div class="form-group row text-left mb-2">
+        <div class="col-sm-12 text-center">
+            <h3 class="py-0">
+                GRAND TOTAL
+            </h3>
+            <?php
+            // Periksa apakah keranjang belanja kosong
+            if (empty($_SESSION['pointofsale'])) {
+                echo '<h3 class="font-weight-bold py-3 bg-light">Belanja terlebih dahulu</h3>';
+            } else {
+                // Tampilkan total belanjaan
+                echo '<h3 class="font-weight-bold py-3 bg-light">';
+                echo 'Total belanjaan: ' . number_format($total); // Tampilkan total belanjaan dengan format angka
+                echo '</h3>';
+            }
+            ?>
+        </div>
+    </div>
+
+    <!-- Kode lainnya -->
+</div>
+
 
                     
                   </div>

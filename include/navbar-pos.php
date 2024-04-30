@@ -17,7 +17,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: white;
   z-index: 2;
   cursor: pointer;
 }
@@ -84,7 +84,7 @@
           <ul class="navbar-nav ml-auto">
 
             <li class="nav-item dropdown no-arrow">
-              <a class="nav-link" href="pos.php" role="button">
+              <a class="nav-link" href="../index.php" role="button">
                 <span class="text">Home</span>
               </a>
             </li>

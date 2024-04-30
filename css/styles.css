@@ -26,8 +26,8 @@
   --gourmand:#8c548d;
 
   /*Green gradient*/
-  --body-color: linear-gradient(90deg, #ee4266 0%, #5E1675 100%);
-  --container-color: linear-gradient(136deg, #BFCFE7 0%, #878787ad 100%);
+  --body-color: linear-gradient(90deg, #61a5a5 0%, #5E1675 100%);
+  --container-color: linear-gradient(136deg, hsl(275, 40%, 26%) 0%, hsl(192, 13%, 16%) 100%);
   
   /*Red gradient*/
   /* --body-color: linear-gradient(90deg, hsl(360, 28%, 40%) 0%, hsl(18, 28%, 40%) 100%);
@@ -256,7 +256,7 @@ button{
 
 /* Change background header */
 .scroll-header{
-  background: var(--container-color);
+  background: linear-gradient(90deg, #558b8b 0%, #420f53 100%);
 }
 
 /* Active link */

@@ -1,0 +1,183 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
+
+/*character*/
+:root{
+  --enigmatic: #864e87;
+  --warm_spicy: #ba5c5b;
+  --woody:#795e43;
+  --creamy:#ca9775;
+  --floral:#a262a3;
+  --citrus:rgba(239, 206, 97, 0.667);
+  --ambery:rgba(255, 146, 79, 0.863);
+  --gourmand:#8c548d;
+  --creamy:rgb(241, 204, 100);
+  --aromatic:rgb(80, 182, 68);
+  --sweet:#c277ad;
+  --fresh:rgb(100, 80, 160);
+  --enigmatic:rgb(208, 100, 241);
+  --vanila:#7a71d4;
+  --balsamic:chocolate;
+  --tropical:rgb(232, 184, 51);
+  --fruity:rgb(213, 105, 59);
+  --earthy:rgb(206, 119, 214);
+  --chypre:rgb(237, 209, 134);
+  --leather:rgb(141, 103, 76);
+  --musk:rgb(125, 102, 90);
+  --powdery:rgb(241, 204, 100);
+  --rose:rgb(227, 137, 227);
+  --ambery:rgb(212, 132, 146);
+  --smooky:rgb(174, 125, 174);
+}
+
+.scrollmenu {
+  overflow-x: auto;
+  white-space: nowrap;
+   background:rgb(255, 255, 255);
+  padding-bottom: 20px; /* Mencegah konten tumpah keluar dari div */
+  color:white;
+  font-family: 'Poppins', sans-serif;;
+}
+
+.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 0.3rem;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+.scrollmenu a:hover {
+  background-color: #59595981;
+}
+
+/* Animasi scrollbar */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.scrollmenu::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scrollmenu::-webkit-scrollbar-track {
+  background:linear-gradient(90deg, #ee4266 0%, #5E1675 100%);
+}
+
+.scrollmenu::-webkit-scrollbar-thumb {
+  background: whitesmoke;
+  border-radius: 6px;
+}
+
+
+.scrollmenu::-webkit-scrollbar-thumb:hover {
+  background: #dcdcdc;
+}
+
+/* Terapkan animasi pada scrollbar */
+.scrollmenu::-webkit-scrollbar-thumb:vertical {
+  animation: scroll 5s linear infinite;
+}
+
+
+/*border*/
+.scrollmenu .border {
+  border-radius:50px;
+  border: 2px solid white;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  -ms-border-radius:50px;
+  -o-border-radius:50px;
+  margin-top: 10px;
+}
+
+.scrollmenu .warm {
+  background-color: var(--warm_spicy);
+}
+
+.scrollmenu .woody {
+  background-color: var(--woody);
+}
+
+.scrollmenu .floral {
+  background: var(--floral);
+}
+
+.scrollmenu .gourmand {
+  background: var(--gourmand);
+}
+
+.scrollmenu .creamy {
+  background:var(--creamy);
+}
+
+.scrollmenu .aromatic {
+  background: var(--aromatic);
+}
+
+.scrollmenu .sweet {
+  background: var(--sweet);
+}
+
+.scrollmenu .vanila {
+  background: var(--vanila);
+}
+
+.scrollmenu .balsamic {
+  background: var(--balsamic);
+}
+
+.scrollmenu .citrus {
+  background: var(--citrus);
+}
+
+.scrollmenu .fresh {
+  background: var(--fresh);
+}
+
+.scrollmenu .tropical {
+  background: var(--tropical);
+}
+
+.scrollmenu .fruity {
+  background: var(--fruity);
+}
+
+.scrollmenu .enigmatic {
+  background: var(--enigmatic);
+}
+
+.scrollmenu .earthy {
+  background: var(--earthy);
+}
+
+.scrollmenu .chypre {
+  background: var(--chypre);
+}
+
+.scrollmenu .leather {
+  background: var(--leather);
+}
+
+.scrollmenu .musk {
+  background: var(--musk);
+}
+
+.scrollmenu .powdery {
+  background: powderblue;
+}
+
+.scrollmenu .rose {
+  background: var(--rose);
+}
+
+.scrollmenu .ambery {
+  background: var(--ambery);
+}
+
+.scrollmenu .smooky  {
+  background: var(--smooky);
+}
+

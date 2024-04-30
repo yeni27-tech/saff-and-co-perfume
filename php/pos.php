@@ -2,12 +2,13 @@
 
 include '../include/connection.php';
 include '../include/navbar-pos.php';
+include '../includess-bagian/nav-category.php';
 
-// session_start();
+
 $product_ids = array();
-//session_destroy();
 
-//periska tombol tambah keranjang telah dikirim kn
+
+
 if(filter_input(INPUT_POST, 'addpos')){
     if(isset($_SESSION['pointofsale'])){
         
@@ -26,19 +27,16 @@ if(filter_input(INPUT_POST, 'addpos')){
                 'quantity' => filter_input(INPUT_POST, 'quantity')
             );   
         }
-        else { //produk sudah ada, tambah kuantitas
-            //cocokkan kunci array dengan id produk yang ditambahkan ke keranjang
+        else {
             for ($i = 0; $i < count($product_ids); $i++){
                 if ($product_ids[$i] == filter_input(INPUT_GET, 'id')){
-                    //tambahkan kuantitas item ke produk yang ada di array
                     $_SESSION['pointofsale'][$i]['quantity'] += filter_input(INPUT_POST, 'quantity');
                 }
             }
         }
         
     }
-    else { //jika keranjang belanja tidak ada, buat produk pertama dengan kunci array 0
-        //membuat array menggunakan data formulir yang dikirimkan, mulai dari kunci 0 dan isi dengan nilai
+    else {
         $_SESSION['pointofsale'][0] = array
         (
             'id' => filter_input(INPUT_GET, 'id'),
@@ -50,10 +48,8 @@ if(filter_input(INPUT_POST, 'addpos')){
 }
 
 if(filter_input(INPUT_GET, 'action') == 'delete'){
-    //ulangi semua produk di keranjang belanja hingga cocok dengan variabel id GET
     foreach($_SESSION['pointofsale'] as $key => $product){
         if ($product['id'] == filter_input(INPUT_GET, 'id')){
-            //keluarkan produk dari keranjang belanja jika cocok dengan id GET
             unset($_SESSION['pointofsale'][$key]);
         }
     }
@@ -108,9 +104,9 @@ function pre_r($array){
                               </li>
                             </ul>
 
-<!-- TAB PANE AREA - ANG UNOD KA TABS ARA SA TABPANE.PHP -->
+
 <?php include './postabpane.php'; ?>
-<!-- END TAB PANE AREA - ANG UNOD KA TABS ARA SA TABPANE.PHP -->
+
 
 
         <div style="clear:both"></div>  

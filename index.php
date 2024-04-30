@@ -167,7 +167,7 @@
                         <img src="assets/img/category1-img.png" alt="" class="category__img">
                         <h3 class="category__title">LAS POZAZ</h3>
                         <p class="category__description">A person who appreciates the peace and beauty of nature, and has an interest in mysterious and profound things. They may have introspective personalities and appreciate moments when they can connect with nature deeply.</p>
-                    </div>
+                    </div> 
 
                     <div class="category__data">
                         <img src="assets/img/category2-img.png" alt="" class="category__img">
