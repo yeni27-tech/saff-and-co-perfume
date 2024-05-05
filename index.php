@@ -331,7 +331,7 @@
                                 <a href="./php/login.php" class="footer__link">Shop All</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">Discover</a>
+                                <a href="./php/discover.php" class="footer__link">Discover</a>
                             </li>
                         </ul>
                     </div>
