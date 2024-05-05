@@ -138,5 +138,5 @@ include '../include/sidebar.php';
           </div>
 
 <?php
-include '../includes/footer.php';
+include '../include/footer.php';
 ?>

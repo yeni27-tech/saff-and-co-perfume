@@ -64,53 +64,171 @@ function pre_r($array){
 }
                 ?>
 
-                
+<button onclick="topFunction()" id="myBtn" title="Go to cart"><a href="#cart"><i class='bx bxs-cart-download bx-tada' style='color:#ffffff' ></i></a></button>
+<style>
+  #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  background:linear-gradient(180deg, #61a5a5 0%, #5E1675 100%);
+  color: white;
+  cursor: pointer;
+  padding: 0.3rem 0.5rem 0rem 0.5rem;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: grey;
+}
+</style>
+
+<script>
+  // Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+</script>
+
+                <!--=========product=========-->
+                <!--=============== BOXICONS ===============-->
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
                 <div class="row">
                 <div class="col-lg-12">
                   <div class="card shadow mb-0">
-                  <div class="card-header py-2">
-                    <h4 class="m-1 text-lg text-primary">Product category</h4>
-                  </div>
                         <!-- /.panel-heading -->
                         <div class="card-body">
                             <!-- Nav tabs -->
-                            <ul class="nav nav-tabs">
-                              <li class="nav-item">
-                                <a class="nav-link" href="#" data-target="#keyboard" data-toggle="tab">(nama kategori)</a>
+                            <ul class="nav nav-tabs" style="margin: 10px;">
+                              <li class="nav-item" style="margin: 10px">
+                                <a class="nav-link" href="#" data-target="#keyboard" data-toggle="tab">
+                                  <img src="../img/CASCAVEL/Cascavel.5f123e66.webp" width="330rem">
+                                  </a>
+                                  <?php include './postabpane.php'; ?>
                               </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#" data-target="#mouse" data-toggle="tab">(nama kategori)</a>
+                              <li class="nav-item" style="margin: 10px">
+                                <a class="nav-link" href="#" data-target="#mouse" data-toggle="tab">
+                                  <img src="../img/CHNO/CHNO.ef39465f.webp" alt="" width="330rem">
+                                  </a>
+                                  <?php include './postabpane2.php'; ?>
                               </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#headset" data-toggle="tab">(nama kategori)</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#cpu" data-toggle="tab">(nama kategori)</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#monitor" data-toggle="tab">(nama kategori)</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#motherboard" data-toggle="tab">(nama kategori)</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#processor" data-toggle="tab">(nama kategori)</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#powersupply" data-toggle="tab">(nama kategori)</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#others" data-toggle="tab">(nama kategori)</a>
+                              <li class="nav-item" style="margin: 10px">
+                                <a class="nav-link" href="#headset" data-toggle="tab">
+                                  <img src="../img/COCO//Coco.e5b3303d.webp" alt="" width="330rem">
+                                  </a>
+                                  <?php include './postabpane3.php'; ?>
                               </li>
                             </ul>
 
+                               <ul class="nav nav-tabs" style="margin: 30px;">
+                              <li class="nav-item" style="margin: 10px">
+                                <a class="nav-link" href="#cpu" data-toggle="tab">
+                                  <img src="../img/ILIAD/Iliad.77637bcb.webp" alt="" width="330rem">
+                                  </a>
+                                  <?php include './postabpane4.php'; ?>
+                              </li>
+                              <li class="nav-item" style="margin: 10px">
+                                <a class="nav-link" href="#monitor" data-toggle="tab">
+                                  <img src="../img/LAS POZAS/Las Pozas.42b21a94.webp" alt="" width="330rem">
+                                  </a>
+                                  <?php include './postabpane5.php'; ?>
+                              </li>
+                              <li class="nav-item" style="margin: 10px">
+                                <a class="nav-link" href="#motherboard" data-toggle="tab">
+                                  <img src="../img/LOUI/Loui.b177b50f.webp" alt="" width="330rem">
+                                  </a>
+                                  <?php include './postabpane6.php'; ?>
+                              </li>
+                              </ul>
 
-<?php include './postabpane.php'; ?>
+
+                                <ul class="nav nav-tabs" style="margin: 30px;">
+                              <li class="nav-item" style="margin: 10px">
+                                <a class="nav-link" href="#processor" data-toggle="tab">
+                                  <img src="../img/MALEALI/Maleali.e8c877f4.webp" alt="" width="330rem">
+                                  </a>
+                                  <?php include './postabpane7.php'; ?>
+                              </li>
+                              <li class="nav-item" style="margin: 10px">
+                                <a class="nav-link" href="#powersupply" data-toggle="tab">
+                                  <img src="../img/MINOUET/Minouet.07cd336c.webp" alt="" width="330rem">
+                                  </a>
+                                  <?php include './postabpane8.php'; ?>
+                              </li>
+                              <li class="nav-item" style="margin: 10px">
+                                <a class="nav-link" href="#omnia" data-toggle="tab">
+                                  <img src="../img/OMNIA/Omnia.453fb0ae.webp" alt="" width="330rem">
+                                  </a>
+                                  <?php include './postabpane9.php'; ?>
+                              </li>
+                            </ul>
+
+                            <ul class="nav nav-tabs" style="margin: 30px;">
+                             <li class="nav-item" style="margin: 10px">
+                                <a class="nav-link" href="#ostara" data-toggle="tab">
+                                  <img src="../img/OSTARA/Ostara.9e2a9284.webp" alt="" width="330rem">
+                                  </a>
+                                  <?php include './postabpane10.php'; ?>
+                              </li>
+                              <li class="nav-item" style="margin: 10px">
+                                <a class="nav-link" href="#sob" data-toggle="tab">
+                                  <img src="../img/S.O.T.B/S.O.T.B.ccb7b148.webp" alt="" width="330rem">
+                                  </a>
+                                  <?php include './postabpane11.php'; ?>
+                              </li>
+                              <li class="nav-item" style="margin: 10px">
+                                <a class="nav-link" href="#saff" data-toggle="tab">
+                                  <img src="../img/SAFF/Saff.98434004.webp" alt="" width="330rem">
+                                  </a>
+                                  <?php include './postabpane12.php'; ?>
+                              </li>
+                            </ul>
+
+                            <ul class="nav nav-tabs" style="margin: 30px;">
+                             <li class="nav-item" style="margin: 10px">
+                                <a class="nav-link" href="#solaris" data-toggle="tab">
+                                  <img src="../img/SOLARIS/Solaris.3f60a687.webp" alt="" width="330rem">
+                                  </a>
+                                  <?php include './postabpane13.php'; ?>
+                              </li>
+                              <li class="nav-item" style="margin: 10px">
+                                <a class="nav-link" href="#trouple" data-toggle="tab">
+                                  <img src="../img/TROUPE/Troupe.d0bbcf37.webp" alt="" width="330rem">
+                                  </a>
+                                  <?php include './postabpane14.php'; ?>
+                              </li>
+                              <li class="nav-item" style="margin: 10px">
+                                <a class="nav-link" href="#xocolatl" data-toggle="tab">
+                                  <img src="../img/XOCOLATL/Xocolatl.7783d233.webp" alt="" width="330rem">
+                                  </a>
+                                  <?php include './postabpane15.php'; ?>
+                              </li>
+                            </ul>
+                        </div>
+                  </div>
+                </div>
+                </div>
+              
 
 
 
+        <!--=============cart==============-->   
+        <section id="cart">
         <div style="clear:both"></div>  
-        <br />  
+        <br/>  
         <div class="card shadow mb-4 col-md-12">
         <div class="card-header py-3 bg-white">
           <h4 class="m-2 font-weight-bold text-primary">Point of Sale</h4>
@@ -160,11 +278,11 @@ function pre_r($array){
            <td>
             <input type="hidden" name="total" value="<?php echo $product['quantity'] * $product['price']; ?>">
             Rp. <?php echo number_format($product['quantity'] * $product['price'], 2); ?></td>  
-           <td>
-               <a href="pos.php?action=delete&id=<?php echo $product['id']; ?>">
-                    <div class="btn bg-gradient-danger btn-danger"><i class="fas fa-fw fa-trash"></i></div>
-               </a>
-           </td>  
+          <td>
+              <a href="pos.php?action=delete&id=<?php echo $product['id']; ?>" class="btn bg-gradient-danger btn-danger">
+                <i class="fas fa-fw fa-trash"></i>
+                </a>
+                </td>  
         </tr>
         <?php  
                   $total = $total + ($product['quantity'] * $product['price']);
@@ -178,8 +296,39 @@ function pre_r($array){
         </table> 
          </div>
        </div> 
+       
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function(){
+        // Event handler untuk tombol hapus
+        $('.delete-item').click(function(e){
+            e.preventDefault(); // Menghentikan perilaku default dari tautan
+            
+            // Ambil ID item yang akan dihapus
+            var itemId = $(this).data('id');
+            
+            // Kirim permintaan Ajax untuk menghapus item
+            $.ajax({
+                url: 'pos.php?action=delete&id=' + itemId,
+                type: 'GET',
+                success: function(response){
+                    // Hapus baris dari tabel
+                    $('tr[data-id="' + itemId + '"]').remove();
+                },
+                error: function(xhr, status, error){
+                    console.error(xhr.responseText);
+                }
+            });
+        });
+    });
+</script>
+
+
 
 <?php
 include './posside.php';
 include '../include/footer.php';
 ?>
+</section>     

@@ -8,16 +8,16 @@
 
 <head>
   <style>
+
 #overlay {
   position: fixed;
   display: none;
   width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: white;
+  background:black;
   z-index: 2;
   cursor: pointer;
 }
@@ -66,7 +66,7 @@
         <!-- Topbar -->
         
         
-        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow" >
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top" >
 
       <a class="sidebar-brand d-flex align-items-center justify-content-center"  style="text-decoration: none; font-size: 18px; font-weight: bold;" href="index.php">
         <div class="sidebar-brand-icon rotate-n-15">
@@ -126,6 +126,10 @@
                 <button class="dropdown-item" onclick="on()">
                   <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                   Profile
+                </button>
+                <button id="transaction" class="dropdown-item">
+                  <i class="fas fa-fw fa-retweet  fa-sm mr-2 text-gray-400"></i>
+                  Transaction
                 </button>
                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#settingsModal" data-href="settings.php?action=edit & id='<?php echo $a; ?>'">
                   <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>

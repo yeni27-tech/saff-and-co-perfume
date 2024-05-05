@@ -202,16 +202,7 @@ if ($Aa=='User'){
                         <!-- /.panel-body -->
                     </div></div></div></div></div></div>
     
-                        <?php 
-                          $query = "SELECT NAME FROM product order by PRODUCT_ID DESC LIMIT 10";
-                          $result = mysqli_query($db, $query) or die(mysqli_error($db));
-                          while ($row = mysqli_fetch_array($result)) {
-                              echo "<ul style='list-style-position: outside'>";
-                              echo "<li>$row[0]</li>";
-                              echo "</ul>";
-                            }
-                          ?>
-               
+                      
 
           </div>
 

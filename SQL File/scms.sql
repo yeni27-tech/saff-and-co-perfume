@@ -1,16 +1,40 @@
-
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Waktu pembuatan: 02 Bulan Mei 2024 pada 03.02
+-- Versi server: 10.4.28-MariaDB
+-- Versi PHP: 8.0.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
 
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `scms`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `category`
+--
+
 CREATE TABLE `category` (
   `CATEGORY_ID` int(11) NOT NULL,
   `CNAME` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
-
+--
+-- Dumping data untuk tabel `category`
+--
 
 INSERT INTO `category` (`CATEGORY_ID`, `CNAME`) VALUES
 (0, 'Woody, Warm Spicy, Aromatic'),
@@ -48,7 +72,7 @@ CREATE TABLE `customer` (
 
 INSERT INTO `customer` (`CUST_ID`, `FIRST_NAME`, `LAST_NAME`, `PHONE_NUMBER`) VALUES
 (17, 'yeni', 'faturohmah', '09876543212'),
-(18, 'pumpita', 'kalilo', '000000000');
+(18, 'Khalila', 'Puspita', '08823456731');
 
 -- --------------------------------------------------------
 
@@ -73,8 +97,8 @@ CREATE TABLE `employee` (
 --
 
 INSERT INTO `employee` (`EMPLOYEE_ID`, `FIRST_NAME`, `LAST_NAME`, `GENDER`, `EMAIL`, `PHONE_NUMBER`, `JOB_ID`, `HIRED_DATE`, `LOCATION_ID`) VALUES
-(1, 'Yeni', 'faturohmah', 'Female', 'admin@gmail.com', '0123456789', 1, '0000-00-00', 113),
-(2, 'yoni', 'seishiro', 'Male', 'yoni@gmail.com', '09091245761', 2, '20-03-2024', 156),
+(1, 'Yeni', 'Faturohmah', 'Female', 'admin@gmail.com', '0123456789', 1, '0000-00-00', 113),
+(2, 'Rizal', 'Murtiyono', 'Male', 'Rizal@gmail.com', '09091245761', 2, '20-03-2024', 156),
 (4, 'Khalila', 'Puspita', 'Female', 'khalila@gmail.com', '09123357105', 1, '20-03-2024', 158);
 
 -- --------------------------------------------------------
@@ -261,7 +285,9 @@ CREATE TABLE `transaction` (
 --
 
 INSERT INTO `transaction` (`TRANS_ID`, `CUST_ID`, `NUMOFITEMS`, `SUBTOTAL`, `LESSVAT`, `NETVAT`, `ADDVAT`, `GRANDTOTAL`, `CASH`, `DATE`, `TRANS_D_ID`) VALUES
-(24, 18, '1', '210,000.00', '22,500.00', '187,500.00', '22,500.00', '210,000.00', '1000000', '2024-04-14 21:15 pm', '0414211525');
+(24, 18, '1', '210,000.00', '22,500.00', '187,500.00', '22,500.00', '210,000.00', '1000000', '2024-04-14 21:15 pm', '0414211525'),
+(25, 17, '4', '1,030,000.00', '110,357.14', '919,642.86', '110,357.14', '1,030,000.00', '1000000000', '24-04-24', '042435448'),
+(27, 18, '2', '11,830,000', '1,267,500', '10,562,500', '1,267,500', '11,830,000', '11830000', '02-05-24', '050201007');
 
 -- --------------------------------------------------------
 
@@ -310,7 +336,14 @@ INSERT INTO `transaction_details` (`ID`, `TRANS_D_ID`, `PRODUCTS`, `QTY`, `PRICE
 (30, '0412203233', 'Fantech EG1', '3', '859', 'Erick', 'Manager'),
 (31, '0414185604', 'Newmen E120', '1', '550', 'Erick', 'Manager'),
 (32, '0414203138', 'OMNIA', '1', '250000', 'Khalila', 'Manager'),
-(33, '0414211525', 'CASCAVEL', '1', '210000', 'Yeni', 'Manager');
+(33, '0414211525', 'CASCAVEL', '1', '210000', 'Yeni', 'Manager'),
+(34, '042435448', 'CASCAVEL', '1', '210000', 'Yeni', 'Manager'),
+(35, '042435448', 'MALEALI', '2', '210000', 'Yeni', 'Manager'),
+(36, '042435448', 'CHNO', '1', '215000', 'Yeni', 'Manager'),
+(37, '042435448', 'ILIAD', '1', '185000', 'Yeni', 'Manager'),
+(38, '0424222556', 'OMNIA', '6', '250000', 'yoni', 'Cashier'),
+(39, '050201007', 'OMNIA', '7', '250000', 'Rizal', 'Cashier'),
+(40, '050201007', 'CASCAVEL', '48', '210000', 'Rizal', 'Cashier');
 
 -- --------------------------------------------------------
 
@@ -487,13 +520,13 @@ ALTER TABLE `supplier`
 -- AUTO_INCREMENT untuk tabel `transaction`
 --
 ALTER TABLE `transaction`
-  MODIFY `TRANS_ID` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `TRANS_ID` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT untuk tabel `transaction_details`
 --
 ALTER TABLE `transaction_details`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 
 --
 -- AUTO_INCREMENT untuk tabel `users`

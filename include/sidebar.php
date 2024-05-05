@@ -56,17 +56,18 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" style="background:linear-gradient(180deg,  #61a6b9 0%, #5E1675 100%);">
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
-        <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-laugh-wink"></i>
+        <div class="sidebar-brand-icon" style="margin-top: 40px;">
+          <img src="../icon/logo-white.webp" style="width: 70px;">
         </div>
-        <div class="sidebar-brand-text mx-3">Stock Control System</div>
       </a>
 
       <!-- Divider -->
+      <br>
+      <br>
       <hr class="sidebar-divider my-0">
 
       <!-- Nav Item - Dashboard -->

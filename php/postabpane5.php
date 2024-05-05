@@ -1,6 +1,6 @@
               <!-- 1ST TAB -->
-                          <div class="tab-pane fade in mt-2" id="keyboard">
-                                      <?php  $query = 'SELECT * FROM product WHERE CATEGORY_ID=0 GROUP BY PRODUCT_CODE ORDER by PRODUCT_CODE ASC';
+                          <div class="tab-pane fade in mt-2" id="monitor">
+                                      <?php  $query = 'SELECT * FROM product WHERE CATEGORY_ID=4 GROUP BY PRODUCT_CODE ORDER by PRODUCT_CODE ASC';
                                         $result = mysqli_query($db, $query);
 
                                         if ($result):
