@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOUI</title>
+    <title>CASCAVEL</title>
     <link rel="stylesheet" href="./cascavel.css" />
     <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 </head>
@@ -17,9 +17,9 @@
 
     <div class="min-content">
         <div class="fadein">
-            <img id="f4" src="./img/CASCAVEL/CASCAVEL-02.7e5cba0c.webp" style="width: 65vh; height: 65vh;" />
-            <img id="f3" src="./img/CASCAVEL/CASCAVEL-03.aa033d97.webp" style="width: 65vh; height: 65vh;" />
-            <img id="f2" src="./img/CASCAVEL/CASCAVEL-01.4dcab07b.webp" style="width: 65vh; height: 65vh;" />
+            <img id="f4" src="../../img/CASCAVEL/CASCAVEL-02.7e5cba0c.webp" style="width: 65vh; height: 65vh;" />
+            <img id="f3" src="../../img/CASCAVEL/CASCAVEL-03.aa033d97.webp" style="width: 65vh; height: 65vh;" />
+            <img id="f2" src="../../img/CASCAVEL/CASCAVEL-01.4dcab07b.webp" style="width: 65vh; height: 65vh;" />
         </div>
     </div>
 
@@ -104,38 +104,31 @@
               </section>
           
               <script>
-                function getTab(el) {
-  const active = document.querySelector(".active");
-  const visible = document.querySelector(".content-visible");
-  const tabContent = document.getElementById(el.href.split("#")[1]);
+  function getTab(el) {
+    const active = document.querySelector(".active");
+    const visible = document.querySelector(".content-visible");
+    const tabContent = document.getElementById(el.href.split("#")[1]);
 
-  active.classList.toggle("active");
-  visible.classList.toggle("content-visible");
+    active.classList.toggle("active");
+    visible.classList.toggle("content-visible");
 
-  el.classList.add("active");
-  tabContent.classList.add("content-visible");
-}
-
-document.addEventListener("click", (e) => {
-  if (e.target.matches(".tab-item a")) {
-    getTab(e.target);
+    el.classList.add("active");
+    tabContent.classList.add("content-visible");
   }
-});
 
-              </script>
+  document.querySelector(".description").addEventListener("click", (e) => {
+    if (e.target.matches(".tab-item a")) {
+      e.preventDefault(); // Mencegah default behavior (merefresh atau scrolling)
+
+      getTab(e.target);
+    }
+  });
+</script>
+
                 
         </div>
     </div>
 
-    </div>
-
-    <div class="footer">
-        <div class="logo">
-            <img src="https://www.saffnco.com/_next/image?url=%2Flogo%2Flogo-white.png&w=256&q=75" />
-        </div>
-        <div class="text">
-            <p>CASCAVEL</p>
-        </div>
     </div>
 
 

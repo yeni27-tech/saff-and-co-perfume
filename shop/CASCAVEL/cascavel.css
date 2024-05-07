@@ -13,7 +13,6 @@ body {
     background-color: beige;
     font-family: Poppins;
     display: swap;
-    height: 100vh;
 }
 
 /*================= NAVBAR =================*/
@@ -81,7 +80,8 @@ marquee {
     animation-name: fade;
     animation-iteration-count: infinite;
     animation-duration: 6s;
-    left: 110vh;
+    left: 87vh;
+    margin-right: 20em;
 }
 
 @-webkit-keyframes fade {
@@ -135,13 +135,13 @@ p span {
 }
 
 .desc {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .des {
     width: 28rem;
     padding-left: 2rem;
-    margin-top: 1rem;
+    margin-top: 0rem;
 }
 
 
@@ -255,23 +255,4 @@ height: auto;
 color: #444;
 padding-bottom: 4px;
 border-bottom: 3px solid blueviolet;
-}
-
-/*================== FOOTER ====================*/
-.footer {
-    background-color: black;
-    padding: 5rem;
-    display: flex;
-    align-items: center;
-    gap: 30rem;
-}
-
-.text {
-    color: white;
-    font-size: 7em;
-}
-
-.info {
-    color: white;
-    font-size: 100px;
 }

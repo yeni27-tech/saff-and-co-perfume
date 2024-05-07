@@ -97,9 +97,9 @@
 <script>
     // Data parfum yang tersedia
     const databaseParfum = [
-        { nama: "Parfum A", aroma: "floral", intensitas: "sedang", ketahanan: "8 jam" },
-        { nama: "Parfum B", aroma: "fruity", intensitas: "tinggi", ketahanan: "6 jam" },
-        { nama: "Parfum C", aroma: "woody", intensitas: "rendah", ketahanan: "12 jam" },
+        { nama: "Parfum cascavel", aroma: "floral", intensitas: "sedang", ketahanan: "8 jam" },
+        { nama: "Parfum laz pozaz", aroma: "fruity", intensitas: "tinggi", ketahanan: "6 jam" },
+        { nama: "Parfum sotb", aroma: "woody", intensitas: "rendah", ketahanan: "12 jam" },
         // Tambahkan lebih banyak data parfum jika diperlukan
     ];
 
