@@ -114,36 +114,17 @@ function scrollFunction() {
                             <!-- Nav tabs -->
                             <ul class="nav nav-tabs" style="margin: 10px;">
                               <li class="nav-item" style="margin: 10px">
-                                <a class="nav-link" href="#" data-target="#monitor" data-toggle="tab">
-                                  <div class="judul">LAS POZAS</div>
+                                <a class="nav-link" href="#powersupply" data-toggle="tab">
+                                  <div class="judul">MINOUET</div>
                                   <div class="hoverimg">
-                                  <img src="../img/LAS POZAS/LAS POZAS-01.0e64e5eb.webp" width="330rem">
+                                  <img src="../img/MINOUET//MINOUET-01.11da4d2e.webp" width="330rem">
                                   </div>
-                                  <img src="../img/LAS POZAS/Las Pozas.42b21a94.webp" width="330rem">
+                                  <img src="../img/MINOUET/Minouet.07cd336c.webp" alt="" width="330rem">
                                   </a>
-                                  <?php include '../php/postabpane5.php'; ?>
-                              </li>
-                              <li class="nav-item" style="margin: 10px">
-                                <a class="nav-link" href="#" data-target="#mouse" data-toggle="tab">
-                                  <div class="judul">XOCOLATL</div>
-                                  <div class="hoverimg">
-                                  <img src="../img/XOCOLATL/XOCOLATL-01.2606941f.webp" width="330rem">
-                                  </div>
-                                  <img src="../img/XOCOLATL/Xocolatl.7783d233.webp" alt="" width="330rem">
-                                  </a>
-                                  <?php include '../php/postabpane15.php'; ?>
-                              </li>
-                              <li class="nav-item" style="margin: 10px">
-                                <a class="nav-link" href="#keyboard" data-toggle="tab">
-                                  <div class="judul">CASCAVEL</div>
-                                  <div class="hoverimg">
-                                  <img src="../img/CASCAVEL/CASCAVEL-01.4dcab07b.webp" width="330rem">
-                                  </div>
-                                  <img src="../img/CASCAVEL/Cascavel.5f123e66.webp" alt="" width="330rem">
-                                  </a>
-                                  <?php include '../php/postabpane.php'; ?>
+                                  <?php include './postabpane8.php'; ?>
                               </li>
                             </ul>
+
                         </div>
                   </div>
                 </div>
@@ -275,7 +256,7 @@ function scrollFunction() {
 
 
 <?php
-include '../php/posside.php';
+include './posside.php';
 include '../include/footer.php';
 ?>
 </section>     

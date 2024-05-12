@@ -114,16 +114,17 @@ function scrollFunction() {
                             <!-- Nav tabs -->
                             <ul class="nav nav-tabs" style="margin: 10px;">
                               <li class="nav-item" style="margin: 10px">
-                                <a class="nav-link" href="#keyboard" data-toggle="tab">
-                                  <div class="judul">CASCAVEL</div>
+                                <a class="nav-link" href="#powersupply" data-toggle="tab">
+                                  <div class="judul">MINOUET</div>
                                   <div class="hoverimg">
-                                  <img src="../img/CASCAVEL/CASCAVEL-01.4dcab07b.webp" width="330rem">
+                                  <img src="../img/MINOUET//MINOUET-01.11da4d2e.webp" width="330rem">
                                   </div>
-                                  <img src="../img/CASCAVEL/Cascavel.5f123e66.webp" alt="" width="330rem">
+                                  <img src="../img/MINOUET/Minouet.07cd336c.webp" alt="" width="330rem">
                                   </a>
-                                  <?php include '../php/postabpane.php'; ?>
+                                  <?php include './postabpane8.php'; ?>
                               </li>
                             </ul>
+
                         </div>
                   </div>
                 </div>
@@ -255,7 +256,7 @@ function scrollFunction() {
 
 
 <?php
-include '../php/posside.php';
+include './posside.php';
 include '../include/footer.php';
 ?>
 </section>     

@@ -7,28 +7,29 @@
 <body>
 
 <div class="scrollmenu">
-  <a class="border warm" href="../category/warm-spicy.php">Warm Spicy</a>
-  <a class="border woody" href="../category/woody.php">Woody</a>
-  <a class="border aromatic" href="../category/aromatic.php">Aromatic</a>
-  <a class="border sweet" href="../category/sweet.php">Sweet</a>
-  <a class="border vanila" href="#support">Vanila</a>
-  <a class="border balsamic" href="#blog">Balsamic</a>
-  <a class="border citrus" href="#tools">Citrus</a>  
-  <a class="border fresh" href="#base">Fresh</a>
-  <a class="border floral" href="#custom">Floral</a>
-  <a class="border tropical" href="#more">Tropical</a>
-  <a class="border fruity" href="#logo">Fruity</a>
-  <a class="border creamy" href="#friends">Creamy</a>
-  <a class="border enigmatic" href="#partners">Enigmatic</a>
-  <a class="border earthy" href="#people">Earthy</a>
-  <a class="border chypre" href="#work">Chypre</a>
-  <a class="border leather" href="#work">Leather</a>
-  <a class="border musk" href="#work">Musk</a>
-  <a class="border powdery" href="#work">Powdery</a>
-  <a class="border rose" href="#work">Rose</a>
-  <a class="border ambery" href="#work">Ambery</a>
-  <a class="border gourmand" href="#work">Gourmand</a>
-  <a class="border smooky" href="#work">Smooky</a>
+  <a class="border allyu" href="../php/pos.php">All</a>
+  <a class="border warm" href="../php/warm-spicy.php">Warm Spicy</a>
+  <a class="border woody" href="../php/woody.php">Woody</a>
+  <a class="border aromatic" href="../php/aromatic.php">Aromatic</a>
+  <a class="border sweet" href="../php/sweet.php">Sweet</a>
+  <a class="border vanila" href="../php/vanila.php">Vanila</a>
+  <a class="border balsamic" href="../php/balsamic.php">Balsamic</a>
+  <a class="border citrus" href="../php/citrus.php">Citrus</a>  
+  <a class="border fresh" href="../php/fresh.php">Fresh</a>
+  <a class="border floral" href="../php/floral.php">Floral</a>
+  <a class="border tropical" href="../php/tropical.php">Tropical</a>
+  <a class="border fruity" href="../php/fruity.php">Fruity</a>
+  <a class="border creamy" href="../php/creamy.php">Creamy</a>
+  <a class="border enigmatic" href="../php/enigmatic.php">Enigmatic</a>
+  <a class="border earthy" href="../php/earthy.php">Earthy</a>
+  <a class="border chypre" href="../php/chypre.php">Chypre</a>
+  <a class="border leather" href="../php/leather.php">Leather</a>
+  <a class="border musk" href="../php/musk.php">Musk</a>
+  <a class="border powdery" href="../php/powdery.php">Powdery</a>
+  <a class="border rose" href="../php/rose.php">Rose</a>
+  <a class="border ambery" href="../php/ambery.php">Ambery</a>
+  <a class="border gourmand" href="../php/gourmand.php">Gourmand</a>
+  <a class="border smooky" href="../php/smoky.php">Smooky</a>
 </div>
 
 </body>

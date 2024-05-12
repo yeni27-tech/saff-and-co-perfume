@@ -85,7 +85,7 @@
 /*border*/
 .scrollmenu .border {
   border-radius:50px;
-  border: 2px solid white;
+  border: 2px solid rgba(0, 0, 0, 0.247);
   -webkit-border-radius:50px;
   -moz-border-radius:50px;
   -ms-border-radius:50px;
@@ -181,3 +181,7 @@
   background: var(--smooky);
 }
 
+.scrollmenu .allyu {
+  background:linear-gradient(90deg,#61a5a5 0%, #5E1675 100%);
+  width: 3rem;
+}

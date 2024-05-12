@@ -114,81 +114,14 @@ function scrollFunction() {
                             <!-- Nav tabs -->
                             <ul class="nav nav-tabs" style="margin: 10px;">
                               <li class="nav-item" style="margin: 10px">
-                                <a class="nav-link" href="#" data-target="#keyboard" data-toggle="tab">
-                                  <div class="judul">CASCAVEL</div>
+                                <a class="nav-link" href="#motherboard" data-toggle="tab">
+                                  <div class="judul">LOUI</div>
                                   <div class="hoverimg">
-                                  <img src="../img/CASCAVEL/CASCAVEL-01.4dcab07b.webp" width="330rem">
+                                  <img src="../img/LOUI/LOUI-01.f111a420.webp" width="330rem">
                                   </div>
-                                  <img src="../img/CASCAVEL/Cascavel.5f123e66.webp" width="330rem">
+                                  <img src="../img/LOUI/Loui.b177b50f.webp" alt="" width="330rem">
                                   </a>
-                                  <?php include '../php/postabpane.php'; ?>
-                              </li>
-                              <li class="nav-item" style="margin: 10px">
-                                <a class="nav-link" href="#headset" data-toggle="tab">
-                                  <div class="judul">COCO</div>
-                                  <div class="hoverimg">
-                                  <img src="../img/COCO/COCO-01.1a00e0a8.webp" width="330rem">
-                                  </div>
-                                  <img src="../img/COCO//Coco.e5b3303d.webp" alt="" width="330rem">
-                                  </a>
-                                  <?php include '../php/postabpane3.php'; ?>
-                              </li>
-                              <li class="nav-item" style="margin: 10px">
-                                <a class="nav-link" href="#processor" data-toggle="tab">
-                                  <div class="judul">MALEALI</div>
-                                  <div class="hoverimg">
-                                  <img src="../img/MALEALI/MALEALI-01.a2366268.webp" width="330rem">
-                                  </div>
-                                  <img src="../img/MALEALI/Maleali.e8c877f4.webp" alt="" width="330rem">
-                                  </a>
-                                  <?php include '../php/postabpane7.php'; ?>
-                              </li>
-                            </ul>
-
-                               <ul class="nav nav-tabs" style="margin: 30px;">
-                               <li class="nav-item" style="margin: 10px">
-                                <a class="nav-link" href="#monitor" data-toggle="tab">
-                                  <div class="judul">LAS POZAZ</div>
-                                  <div class="hoverimg">
-                                  <img src="../img/LAS POZAS/LAS POZAS-01.0e64e5eb.webp" width="330rem">
-                                  </div>
-                                  <img src="../img/LAS POZAS/Las Pozas.42b21a94.webp" alt="" width="330rem">
-                                  </a>
-                                  <?php include '../php/postabpane5.php'; ?>
-                              </li>
-                              <li class="nav-item" style="margin: 10px">
-                                <a class="nav-link" href="#xocolatl" data-toggle="tab">
-                                  <div class="judul">XOCOLATL</div>
-                                  <div class="hoverimg">
-                                  <img src="../img/XOCOLATL/XOCOLATL-01.2606941f.webp" width="330rem">
-                                  </div>
-                                  <img src="../img/XOCOLATL/Xocolatl.7783d233.webp" alt="" width="330rem">
-                                  </a>
-                                  <?php include '../php/postabpane15.php'; ?>
-                              </li>
-                              <li class="nav-item" style="margin: 10px">
-                                <a class="nav-link" href="#solaris" data-toggle="tab">
-                                  <div class="judul">SOLARIS</div>
-                                  <div class="hoverimg">
-                                  <img src="../img/SOLARIS/SOLARIS-01.923b5d7a.webp" width="330rem">
-                                  </div>
-                                  <img src="../img/SOLARIS/Solaris.3f60a687.webp" alt="" width="330rem">
-                                  </a>
-                                  <?php include '../php/postabpane13.php'; ?>
-                              </li>
-                              </ul>
-
-
-                                <ul class="nav nav-tabs" style="margin: 30px;">
-                              <li class="nav-item" style="margin: 10px">
-                                <a class="nav-link" href="#processor" data-toggle="tab">
-                                  <div class="judul">MALEALI</div>
-                                  <div class="hoverimg">
-                                  <img src="../img/MALEALI/MALEALI-01.a2366268.webp" width="330rem">
-                                  </div>
-                                  <img src="../img/MALEALI/Maleali.e8c877f4.webp" alt="" width="330rem">
-                                  </a>
-                                  <?php include './postabpane7.php'; ?>
+                                  <?php include './postabpane6.php'; ?>
                               </li>
                               <li class="nav-item" style="margin: 10px">
                                 <a class="nav-link" href="#powersupply" data-toggle="tab">
@@ -201,29 +134,6 @@ function scrollFunction() {
                                   <?php include './postabpane8.php'; ?>
                               </li>
                               <li class="nav-item" style="margin: 10px">
-                                <a class="nav-link" href="#omnia" data-toggle="tab">
-                                  <div class="judul">OMNIA</div>
-                                  <div class="hoverimg">
-                                  <img src="../img/OMNIA/OMNIA-01.ce46ab68.webp" width="330rem">
-                                  </div>
-                                  <img src="../img/OMNIA/Omnia.453fb0ae.webp" alt="" width="330rem">
-                                  </a>
-                                  <?php include './postabpane9.php'; ?>
-                              </li>
-                            </ul>
-
-                            <ul class="nav nav-tabs" style="margin: 30px;">
-                             <li class="nav-item" style="margin: 10px">
-                                <a class="nav-link" href="#ostara" data-toggle="tab">
-                                  <div class="judul">OSTARA</div>
-                                  <div class="hoverimg">
-                                  <img src="../img/OSTARA/OSTARA-01.d0603486.webp" width="330rem">
-                                  </div>
-                                  <img src="../img/OSTARA/Ostara.9e2a9284.webp" alt="" width="330rem">
-                                  </a>
-                                  <?php include './postabpane10.php'; ?>
-                              </li>
-                              <li class="nav-item" style="margin: 10px">
                                 <a class="nav-link" href="#sob" data-toggle="tab">
                                   <div class="judul">S.O.T.B</div>
                                   <div class="hoverimg">
@@ -233,38 +143,18 @@ function scrollFunction() {
                                   </a>
                                   <?php include './postabpane11.php'; ?>
                               </li>
-                              <li class="nav-item" style="margin: 10px">
-                                <a class="nav-link" href="#saff" data-toggle="tab">
-                                  <div class="judul">SAFF</div>
-                                  <div class="hoverimg">
-                                  <img src="../img/SAFF/SAFF-01.a3a2e998.webp" width="330rem">
-                                  </div>
-                                  <img src="../img/SAFF/Saff.98434004.webp" alt="" width="330rem">
-                                  </a>
-                                  <?php include './postabpane12.php'; ?>
-                              </li>
                             </ul>
-
-                            <ul class="nav nav-tabs" style="margin: 30px;">
-                             <li class="nav-item" style="margin: 10px">
-                                <a class="nav-link" href="#solaris" data-toggle="tab">
-                                  <div class="judul">SOLARIS</div>
+                        
+                            <ul class="nav nav-tabs" style="margin: 10px;">
+                            <li class="nav-item" style="margin: 10px">
+                                <a class="nav-link" href="#cpu" data-toggle="tab">
+                                  <div class="judul">ILIAD</div>
                                   <div class="hoverimg">
-                                  <img src="../img/SOLARIS/SOLARIS-01.923b5d7a.webp" width="330rem">
+                                  <img src="../img/ILIAD/ILIAD-01.6d72b911.webp" width="330rem">
                                   </div>
-                                  <img src="../img/SOLARIS/Solaris.3f60a687.webp" alt="" width="330rem">
+                                  <img src="../img/ILIAD/Iliad.77637bcb.webp" alt="" width="330rem">
                                   </a>
-                                  <?php include './postabpane13.php'; ?>
-                              </li>
-                              <li class="nav-item" style="margin: 10px">
-                                <a class="nav-link" href="#trouple" data-toggle="tab">
-                                  <div class="judul">TROUPE</div>
-                                  <div class="hoverimg">
-                                  <img src="../img/TROUPE/TROUPE-01.5885b973.webp" width="330rem">
-                                  </div>
-                                  <img src="../img/TROUPE/Troupe.d0bbcf37.webp" alt="" width="330rem">
-                                  </a>
-                                  <?php include './postabpane14.php'; ?>
+                                  <?php include './postabpane4.php'; ?>
                               </li>
                               <li class="nav-item" style="margin: 10px">
                                 <a class="nav-link" href="#xocolatl" data-toggle="tab">
@@ -275,6 +165,16 @@ function scrollFunction() {
                                   <img src="../img/XOCOLATL/Xocolatl.7783d233.webp" alt="" width="330rem">
                                   </a>
                                   <?php include './postabpane15.php'; ?>
+                              </li>
+                             <li class="nav-item" style="margin: 10px">
+                                <a class="nav-link" href="#solaris" data-toggle="tab">
+                                  <div class="judul">SOLARIS</div>
+                                  <div class="hoverimg">
+                                  <img src="../img/SOLARIS/SOLARIS-01.923b5d7a.webp" width="330rem">
+                                  </div>
+                                  <img src="../img/SOLARIS/Solaris.3f60a687.webp" alt="" width="330rem">
+                                  </a>
+                                  <?php include './postabpane13.php'; ?>
                               </li>
                             </ul>
                         </div>
