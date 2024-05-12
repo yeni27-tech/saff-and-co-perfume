@@ -18,7 +18,7 @@
 
   <title>Saff & co login</title>
 
-  <link rel="icon" href="https://www.freeiconspng.com/uploads/sales-icon-7.png">
+  <link rel="icon" href="../icon/logo-black.png">
 
   <!-- Custom fonts -->
   <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -29,7 +29,7 @@
 
 </head>
 
-<body class="bg-gradient-primary">
+<body style="background:gray">
 
   <div class="container">
 
@@ -37,16 +37,20 @@
     <div class="row justify-content-center">
 
       <div class="col-xl-10 col-lg-12 col-md-9">
-
+      <br>
+      <br>
         <div class="card o-hidden border-0 shadow-lg my-5">
           <div class="card-body p-0">
             <!-- baris dalam badan container -->
             <div class="row shadow">
-              <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
+              <div class="col-lg-6 d-none d-lg-block">
+                <img src="https://cf.shopee.co.id/file/fe38a96fa60b04f2e4d0627cee888a9a" width="450">    
+               </div>
               <div class="col-lg-6">
                 <div class="p-5">
                   <div class="text-center">
                     <h1 class="h4 text-gray-900 mb-4">
+                      <br>
                       Login to SAFF & CO
                     </h1>
                   </div>
@@ -65,7 +69,15 @@
                     </div>
                     <button class="btn btn-primary btn-user btn-block" type="submit" name="btnlogin">Login</button>
                     <hr>
-                  
+                  <style>
+                    .btn-user{
+                      background-color: #503C3C;
+                    }
+                    .btn-user:hover {
+                      background-color: #4F4A45;
+                      transition: all 0.2s ease
+                    }
+                  </style>
                 </form>
                 </div>
               </div>
