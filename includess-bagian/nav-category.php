@@ -7,10 +7,10 @@
 <body>
 
 <div class="scrollmenu">
-  <a class="border warm" href="#home">Warm Spicy</a>
-  <a class="border woody" href="#news">Woody</a>
-  <a class="border aromatic" href="#contact">Aromatic</a>
-  <a class="border sweet" href="#about">Sweet</a>
+  <a class="border warm" href="../category/warm-spicy.php">Warm Spicy</a>
+  <a class="border woody" href="../category/woody.php">Woody</a>
+  <a class="border aromatic" href="../category/aromatic.php">Aromatic</a>
+  <a class="border sweet" href="../category/sweet.php">Sweet</a>
   <a class="border vanila" href="#support">Vanila</a>
   <a class="border balsamic" href="#blog">Balsamic</a>
   <a class="border citrus" href="#tools">Citrus</a>  
