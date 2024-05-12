@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CASCAVEL</title>
-    <link rel="stylesheet" href="./cascavel.css" />
+    <title>S.O.T.B</title>
+    <link rel="stylesheet" href="../CASCAVEL/cascavel.css" />
     <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 </head>
 
@@ -14,14 +14,14 @@
         <i class="fa-sharp fa-solid fa-arrow-left-long fa-2xs"></i>
         </a>
         <p>|</p>
-        <marquee behavior="infinite" direction="">SAFF & CO.  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; A SYMPHONY OF SENSE &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; CASCAVEL &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; SAFF & CO. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; A SYMPHONY OF SENSE &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;CASCAVEL</marquee>
+        <marquee behavior="infinite" direction="">SAFF & CO.  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; A SYMPHONY OF SENSE &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; S.O.T.B &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; SAFF & CO. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; A SYMPHONY OF SENSE &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;S.O.T.B</marquee>
     </section>
 
     <div class="min-content">
         <div class="fadein">
-            <img id="f4" src="../../img/CASCAVEL/CASCAVEL-02.7e5cba0c.webp" style="width: 65vh; height: 65vh;" />
-            <img id="f3" src="../../img/CASCAVEL/CASCAVEL-03.aa033d97.webp" style="width: 65vh; height: 65vh;" />
-            <img id="f2" src="../../img/CASCAVEL/CASCAVEL-01.4dcab07b.webp" style="width: 65vh; height: 65vh;" />
+            <img id="f4" src="../../img/S.O.T.B/SOTB-01.60e6f63e.webp" style="width: 65vh; height: 65vh;" />
+            <img id="f3" src="../../img/S.O.T.B/SOTB-02.825ccb8d.webp" style="width: 65vh; height: 65vh;" />
+            <img id="f2" src="../../img/S.O.T.B/SOTB-03.7bd948ed.webp" style="width: 65vh; height: 65vh;" />
         </div>
     </div>
 
@@ -49,17 +49,17 @@
                 <div class="wrapper_tab-content">
                   <article id="item1" class="tab-content content-visible">
                     <p>
-                         &emsp; Cascavel translates the modern-day, day-to-night elegance into a luxurious, warm-spiced floral infusion. We introduced stronger saffron notes in the opening to bring exotic warmth and spice into the fragrance. To balance the rich depth of saffron, we added a delicate blend of sweetness with violet and lily of the valley – a truly dreamy scent made for all genders alike.
+                      &emsp;S.O.T.B Designed with an exciting blend of mandarin, sweet floral notes, and rich vanilla musk, this tropical scent will remind you of warm sea breeze, soft sands, and lush palm trees on a hot summer day.
                     </p>
                   </article>
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;With <mark>Saffron</mark>and <mark>Orange Blossom</mark> on top.
+                        &emsp;With <mark>Mandarin,</mark> <mark>Galbanum</mark> and <mark>Ylang</mark> on the top layer.
                         <br>
-                        <mark>Jasmine,  Violet, and Lily</mark> for the middle layer.
+                        <mark>Orange Flower, Jasmine, Tuberose</mark> for the middle.
                         <br>
-                        And also the <mark>Oakmoss and Ambergriss</mark> as the dry down.
+                        And also the <mark>Vanilla,</mark> <mark>Tonka Bean,</mark> and <mark>Musk</mark> for the dry down.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -76,7 +76,7 @@
                             30 ml<br>
                             6 Hours<br>
                             Strong<br>
-                            Unisex<br>
+                            Unisex - Women<br>
                         </p>
                     </div>
                   </article>
@@ -86,13 +86,13 @@
                         <div class="char">
                                 <div class="char-list">
                                     <div class="box c1">
-                                        <text>Woody</text>
+                                        <text>Citrus</text>
                                     </div>
                                     <div class="box c2">
-                                        <text>Warm Spicy</text>
+                                        <text>Floral</text>
                                     </div>
                                     <div class="box c3">
-                                        <text>Aromatic</text>
+                                        <text>Creamy</text>
                                     </div>
                                 </div>
                         </div>

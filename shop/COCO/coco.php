@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CASCAVEL</title>
-    <link rel="stylesheet" href="./cascavel.css" />
+    <title>COCO</title>
+    <link rel="stylesheet" href="../CASCAVEL/cascavel.css" />
     <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 </head>
 
@@ -14,14 +14,14 @@
         <i class="fa-sharp fa-solid fa-arrow-left-long fa-2xs"></i>
         </a>
         <p>|</p>
-        <marquee behavior="infinite" direction="">SAFF & CO.  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; A SYMPHONY OF SENSE &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; CASCAVEL &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; SAFF & CO. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; A SYMPHONY OF SENSE &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;CASCAVEL</marquee>
+        <marquee behavior="infinite" direction="">SAFF & CO.  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; A SYMPHONY OF SENSE &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; COCO &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; SAFF & CO. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; A SYMPHONY OF SENSE &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;COCO</marquee>
     </section>
 
     <div class="min-content">
         <div class="fadein">
-            <img id="f4" src="../../img/CASCAVEL/CASCAVEL-02.7e5cba0c.webp" style="width: 65vh; height: 65vh;" />
-            <img id="f3" src="../../img/CASCAVEL/CASCAVEL-03.aa033d97.webp" style="width: 65vh; height: 65vh;" />
-            <img id="f2" src="../../img/CASCAVEL/CASCAVEL-01.4dcab07b.webp" style="width: 65vh; height: 65vh;" />
+            <img id="f4" src="../../img/COCO/COCO-01.1a00e0a8.webp" style="width: 65vh; height: 65vh;" />
+            <img id="f3" src="../../img/COCO/COCO-02.6ea750c5.webp" style="width: 65vh; height: 65vh;" />
+            <img id="f2" src="../../img/COCO/COCO-03.cccf69bd.webp" style="width: 65vh; height: 65vh;" />
         </div>
     </div>
 
@@ -49,17 +49,17 @@
                 <div class="wrapper_tab-content">
                   <article id="item1" class="tab-content content-visible">
                     <p>
-                         &emsp; Cascavel translates the modern-day, day-to-night elegance into a luxurious, warm-spiced floral infusion. We introduced stronger saffron notes in the opening to bring exotic warmth and spice into the fragrance. To balance the rich depth of saffron, we added a delicate blend of sweetness with violet and lily of the valley – a truly dreamy scent made for all genders alike.
+                         &emsp; Start your day bold with COCO's oriental orange aroma in the morning, before it blends into feminine floral scent that reminds you of a lush flower garden. End your day on a classy note with COCO's sweet vanilla scent.
                     </p>
                   </article>
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;With <mark>Saffron</mark>and <mark>Orange Blossom</mark> on top.
+                        &emsp;With <mark>Citrus</mark> <mark>Floral</mark> and <mark>Green</mark> on top.
                         <br>
-                        <mark>Jasmine,  Violet, and Lily</mark> for the middle layer.
+                        <mark>Marine and woody</mark> for the middle layer.
                         <br>
-                        And also the <mark>Oakmoss and Ambergriss</mark> as the dry down.
+                        And the <mark>Musk and Oriental</mark> as the dry down.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -89,10 +89,10 @@
                                         <text>Woody</text>
                                     </div>
                                     <div class="box c2">
-                                        <text>Warm Spicy</text>
+                                        <text>Balsamic</text>
                                     </div>
                                     <div class="box c3">
-                                        <text>Aromatic</text>
+                                        <text>Citrus</text>
                                     </div>
                                 </div>
                         </div>

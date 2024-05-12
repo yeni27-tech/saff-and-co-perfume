@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CASCAVEL</title>
-    <link rel="stylesheet" href="./cascavel.css" />
+    <title>LAS POZAS</title>
+    <link rel="stylesheet" href="../CASCAVEL/cascavel.css" />
     <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 </head>
 
@@ -14,14 +14,14 @@
         <i class="fa-sharp fa-solid fa-arrow-left-long fa-2xs"></i>
         </a>
         <p>|</p>
-        <marquee behavior="infinite" direction="">SAFF & CO.  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; A SYMPHONY OF SENSE &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; CASCAVEL &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; SAFF & CO. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; A SYMPHONY OF SENSE &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;CASCAVEL</marquee>
+        <marquee behavior="infinite" direction="">SAFF & CO.  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; A SYMPHONY OF SENSE &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; LAS POZAS &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; SAFF & CO. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; A SYMPHONY OF SENSE &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;LAS POZAS</marquee>
     </section>
 
     <div class="min-content">
         <div class="fadein">
-            <img id="f4" src="../../img/CASCAVEL/CASCAVEL-02.7e5cba0c.webp" style="width: 65vh; height: 65vh;" />
-            <img id="f3" src="../../img/CASCAVEL/CASCAVEL-03.aa033d97.webp" style="width: 65vh; height: 65vh;" />
-            <img id="f2" src="../../img/CASCAVEL/CASCAVEL-01.4dcab07b.webp" style="width: 65vh; height: 65vh;" />
+            <img id="f4" src="../../img/LAS POZAS/LAS POZAS-01.0e64e5eb.webp" style="width: 65vh; height: 65vh;" />
+            <img id="f3" src="../../img/LAS POZAS/LAS POZAS-02.b48f6749.webp" style="width: 65vh; height: 65vh;" />
+            <img id="f2" src="../../img/LAS POZAS/LAS POZAS-03.f5d67b5a.webp" style="width: 65vh; height: 65vh;" />
         </div>
     </div>
 
@@ -49,17 +49,17 @@
                 <div class="wrapper_tab-content">
                   <article id="item1" class="tab-content content-visible">
                     <p>
-                         &emsp; Cascavel translates the modern-day, day-to-night elegance into a luxurious, warm-spiced floral infusion. We introduced stronger saffron notes in the opening to bring exotic warmth and spice into the fragrance. To balance the rich depth of saffron, we added a delicate blend of sweetness with violet and lily of the valley – a truly dreamy scent made for all genders alike.
+                      &emsp;Velvety body of Sumatran benzoin grounded with a humbling blend of cashmeran and sandalwood is serene yet so surreal. Stand still. LAS POZAS knows where you are. You must let it find you.                    
                     </p>
                   </article>
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;With <mark>Saffron</mark>and <mark>Orange Blossom</mark> on top.
+                        &emsp;We do <mark>Datura</mark>on top of the layer.
                         <br>
-                        <mark>Jasmine,  Violet, and Lily</mark> for the middle layer.
+                        <mark>Sumatran Benzoin, and Nutmeg</mark> for the middle.
                         <br>
-                        And also the <mark>Oakmoss and Ambergriss</mark> as the dry down.
+                        And also the <mark>Cashmeran</mark> <mark>Cedar</mark> and <mark>Sandalwood</mark> for the dry down.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -89,10 +89,13 @@
                                         <text>Woody</text>
                                     </div>
                                     <div class="box c2">
-                                        <text>Warm Spicy</text>
+                                        <text>Enigmatic</text>
                                     </div>
                                     <div class="box c3">
-                                        <text>Aromatic</text>
+                                        <text>Creamy</text>
+                                    </div>
+                                    <div class="box c4">
+                                        <text>Warm Spicy</text>
                                     </div>
                                 </div>
                         </div>

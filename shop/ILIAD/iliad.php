@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CASCAVEL</title>
-    <link rel="stylesheet" href="./cascavel.css" />
+    <title>ILIAD</title>
+    <link rel="stylesheet" href="../CASCAVEL/cascavel.css" />
     <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 </head>
 
@@ -19,9 +19,9 @@
 
     <div class="min-content">
         <div class="fadein">
-            <img id="f4" src="../../img/CASCAVEL/CASCAVEL-02.7e5cba0c.webp" style="width: 65vh; height: 65vh;" />
-            <img id="f3" src="../../img/CASCAVEL/CASCAVEL-03.aa033d97.webp" style="width: 65vh; height: 65vh;" />
-            <img id="f2" src="../../img/CASCAVEL/CASCAVEL-01.4dcab07b.webp" style="width: 65vh; height: 65vh;" />
+            <img id="f4" src="../../img/ILIAD/ILIAD-01.6d72b911.webp" style="width: 65vh; height: 65vh;" />
+            <img id="f3" src="../../img/ILIAD/ILIAD-02.1248b953.webp" style="width: 65vh; height: 65vh;" />
+            <img id="f2" src="../../img/ILIAD/ILIAD-03.724c68df.webp" style="width: 65vh; height: 65vh;" />
         </div>
     </div>
 
@@ -49,17 +49,17 @@
                 <div class="wrapper_tab-content">
                   <article id="item1" class="tab-content content-visible">
                     <p>
-                         &emsp; Cascavel translates the modern-day, day-to-night elegance into a luxurious, warm-spiced floral infusion. We introduced stronger saffron notes in the opening to bring exotic warmth and spice into the fragrance. To balance the rich depth of saffron, we added a delicate blend of sweetness with violet and lily of the valley – a truly dreamy scent made for all genders alike.
+                      &emsp;ILIAD is an olfactory homage to Homer’s epic poem – a divine scent that transports you to the golden age of heroes. Inspired by the poem's protagonist, ILIAD sings the saga of Achilles in the notes of sun-kissed cashmeran, sensual amber, and sultry florals.                    
                     </p>
                   </article>
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;With <mark>Saffron</mark>and <mark>Orange Blossom</mark> on top.
+                        &emsp;With <mark>Pink Peppercorn</mark> <mark>Peony</mark> and <mark>Muguet</mark> on the top layer.
                         <br>
-                        <mark>Jasmine,  Violet, and Lily</mark> for the middle layer.
+                        <mark>Ylang-ylang,  Iris, and Hedione</mark> for the middle.
                         <br>
-                        And also the <mark>Oakmoss and Ambergriss</mark> as the dry down.
+                        And also the <mark>Amber</mark> <mark>Cashmeran</mark> and <mark>Amber</mark> for the dry down.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -86,13 +86,13 @@
                         <div class="char">
                                 <div class="char-list">
                                     <div class="box c1">
-                                        <text>Woody</text>
+                                        <text>Fruity</text>
                                     </div>
                                     <div class="box c2">
-                                        <text>Warm Spicy</text>
+                                        <text>Floral</text>
                                     </div>
                                     <div class="box c3">
-                                        <text>Aromatic</text>
+                                        <text>Creamy</text>
                                     </div>
                                 </div>
                         </div>
