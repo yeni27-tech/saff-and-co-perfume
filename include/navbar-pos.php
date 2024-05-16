@@ -129,7 +129,9 @@
                 </button>
                 <button id="transaction" class="dropdown-item">
                   <i class="fas fa-fw fa-retweet  fa-sm mr-2 text-gray-400"></i>
+                  <a href="../php/transaction.php">
                   Transaction
+                  </a>
                 </button>
                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#settingsModal" data-href="settings.php?action=edit & id='<?php echo $a; ?>'">
                   <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
