@@ -183,15 +183,6 @@ p span {
     border: 1px solid rgba(210, 105, 30, 0.402);
 }
 
-/* Button */
-
-button {
-    position: relative;
-    padding: 0.8rem;
-    background-color: black;
-    color: white;
-    width: 56vh;
-}
 /*======================= Option-Slider =======================*/
 
 a {
@@ -256,4 +247,8 @@ color: #444;
 padding-bottom: 4px;
 border-bottom: 3px solid blueviolet;
 }
+
+/*================================ FOOTER ============================*/
+
+
 
