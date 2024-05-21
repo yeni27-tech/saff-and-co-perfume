@@ -4,8 +4,6 @@
     padding: o;
     margin: 0;
     font-family: Poppins;
-    padding: 0px;
-    margin: 0px;
     box-sizing: border-box;
 }
 
@@ -13,6 +11,7 @@ body {
     background-color: beige;
     font-family: Poppins;
     display: swap;
+    height: auto;
 }
 
 /*================= NAVBAR =================*/
@@ -59,7 +58,7 @@ marquee {
 .desc img {
     padding: 0;
     width: 50%;
-    height: 55vh;
+    
     object-fit: cover;
 }
 
@@ -118,10 +117,20 @@ marquee {
 
 .min-content {
     display: flex;
+    flex-direction: column;
     padding-bottom: 2rem;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
 }
 
+@media screen and (max-width: 700px){
+    .min-content{
+      width: 100%;  
+    }
+}
 /*================== Deskripsi ==================*/
+
 p span { 
     display: block; 
 }
@@ -130,21 +139,26 @@ p span {
     margin: 8rem;
     padding:1rem;
     border-radius: 1em;
-    position: initial;
-    height: 75vh;
+}
+
+@media screen and (max-width: 700px) {  
+    .description {
+        width: 25%;
+        flex-direction: column;
+    }
 }
 
 .desc {
     padding-bottom: 2rem;
+    
 }
 
 .des {
     width: 28rem;
     padding-left: 2rem;
     margin-top: 0rem;
+    height:45vh;
 }
-
-
 
 /*character*/
 
@@ -195,20 +209,20 @@ max-width: 600px;
 width: 100%;
 }
 
-ul {
+ ul{
 list-style: none;
 margin: 0;
 padding: 0;
 display: flex;
 justify-content: space-between;
-height: 30px;
+
 }
 
-li a {
+ li a {
 color: #e06969;
 }
 
-li a:hover {
+ li a:hover {
 padding-bottom: 4px;
 border-bottom: 3px solid blueviolet;
 }
@@ -237,7 +251,6 @@ margin-bottom: 0.5em;
 
 .content-visible {
 position: static;
-visibility: inherit;
 visibility: inherit;
 height: auto;
 }

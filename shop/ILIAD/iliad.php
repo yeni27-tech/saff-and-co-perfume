@@ -15,7 +15,7 @@
         <i class="fa-sharp fa-solid fa-arrow-left-long fa-2xs"></i>
         </a>
         <p>|</p>
-        <marquee behavior="infinite" direction="">SAFF & CO.  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; A SYMPHONY OF SENSE &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; CASCAVEL &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; SAFF & CO. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; A SYMPHONY OF SENSE &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;CASCAVEL</marquee>
+        <marquee behavior="infinite" direction="">SAFF & CO.  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; A SYMPHONY OF SENSE &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ILIAD &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; SAFF & CO. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; A SYMPHONY OF SENSE &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ILIAD</marquee>
     </section>
 
     <div class="min-content">
@@ -27,7 +27,6 @@
     </div>
 
     <div class="description">
-
         <div class="des">
             <section class="container">
                 <ul class="tabs">
@@ -105,30 +104,29 @@
               </section>
           
               <script>
-  function getTab(el) {
-    const active = document.querySelector(".active1");
-    const visible = document.querySelector(".content-visible");
-    const tabContent = document.getElementById(el.href.split("#")[1]);
+                    function getTab(el) {
+                    const active = document.querySelector(".active1");
+                    const visible = document.querySelector(".content-visible");
+                    const tabContent = document.getElementById(el.href.split("#")[1]);
 
-    active.classList.toggle("active1");
-    visible.classList.toggle("content-visible");
+                    active.classList.toggle("active1");
+                    visible.classList.toggle("content-visible");
 
-    el.classList.add("active1");
-    tabContent.classList.add("content-visible");
-  }
+                    el.classList.add("active1");
+                    tabContent.classList.add("content-visible");
+                    }
 
-  document.querySelector(".description").addEventListener("click", (e) => {
-    if (e.target.matches(".tab-item1 a")) {
-      e.preventDefault(); // Mencegah default behavior (merefresh atau scrolling)
+                  document.querySelector(".description").addEventListener("click", (e) => {
+                  if (e.target.matches(".tab-item1 a")) {
+                  e.preventDefault(); // Mencegah default behavior (merefresh atau scrolling)
 
-      getTab(e.target);
-    }
-  });
-</script>
+                  getTab(e.target);
+                  }
+                  });
+              </script>
 
-                
         </div>
-    </div>
+        </div>
 
     </div>
 
@@ -137,37 +135,22 @@
     <div class="row">
        <div class="col">
         <img src="../../icon/logo-white.webp" class="logo">
-        <p>SAFF & CO.</p>
+        <p>Consteletion Of Sense</p>
        </div>
        <div class="col">
-        <h3>Office <div class="underline"><span></span></div></h3>
-        <p>ITPL Road</p>
-        <p>White Field</p>
-        <p>kartanaka, PIN 560066, India</p>
-        <p class="email-id">khalilapuspita25@gmail.com</p>
-        <h4>+62-085759158087</h4>
+        <h3>Address <div class="underline"><span></span></div></h3>
+        <p>SMKN 1 CIREBON</p>
+        <p>Jl. Perjuangan, Karyamulya</p>
+        <p>Cirebon, Indoneisa</p>
+        <p class="email-id">saffandco@gmail.com</p>
+        <h4>+62-85455676809</h4>
        </div>
        <div class="col">
-        <h3>links  <div class="underline"><span></span></div></h3>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">services</a></li>
-          <li><a href="#">Login</a></li>
-        </ul>
-       </div>
-       <div class="col">
-        <h3>news letter <div class="underline"><span></span></div></h3>
-        <form>
-          <i class="far fa-envelope"></i>
-          <input type="email" placeholder="Enter your email id" required></input>
-          <button type="submit"><i class="fas fa-arrow-right"></i></button>
-        </form>
+        <h3>Social Media<div class="underline"><span></span></div></h3>
         <div class="social-icons">
           <i class="fab fa-facebook-f"></i>
           <i class="fab fa-twitter"></i>
-          <i class="fab fa-whatsapp"></i>
+          <i class="fab fa-instagram"></i>
           <i class="fab fa-pinterest"></i>
         </div>
        </div>
@@ -179,14 +162,16 @@
   <style>
     footer {
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0;
     background: linear-gradient(to right, #00093c, #2d0b00);
     color: #fff;
-    padding: 100px 0 30px;
+    padding: 50px 100px 20px;
     border-top-left-radius: 125px;
     font-size: 13px;
     line-height: 20px;
+    margin-top: 32vh;
+
 }
 
 .row {
@@ -202,12 +187,12 @@
     padding: 10px;
 }
 
-.col:nth-child(2){
+.col:nth-child(2), .col:nth-child(3){
   flex-basis: 15%;
 }
 
 .logo {
-    width: 80px;
+    width: 10rem;
     margin-bottom: 30px;
 }
 
@@ -224,58 +209,13 @@
     margin: 20px 0;
 }
 
-ul li {
-    list-style: none;
-    margin-bottom: 12px;
-}
-
-ul li a {
-    text-decoration : none;
-    color: #fff;
-}
-
-form {
-  padding-bottom: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 50px;
-}
-
-form .far {
-  font-size: 18px;
-  margin-right: 10px;
-}
-
-form input {
-  width: 100%;
-  background: transparent;
-  color: #ccc;
-  outline: none;
-}
-
-form button {
-  background: transparent;
-  border: 0;
-  outline: none;
-  cursor: pointer;
-}
-
-form button .far {
-  font-size: 16px;
-  color: #ccc;
-}
-
-social-icons .fab {
-  width: 10px;
+.social-icon .fab {
+  
   height: 40px;
-  border-radius: 50%;
-  text-align: center;
+  border-radius: 30%;
   line-height: 40px;
   font-size: 20px;
-  color: #000;
-  background: #fff;
+  color: #fff;
   margin-right: 15px;
   cursor: pointer;
 }
@@ -294,7 +234,7 @@ hr {
 .underline {
   width: 100%;
   height: 5px;
-  background: #767676;
+  
   border-radius: 3px;
   position: absolute;
   left: 0;
@@ -318,6 +258,21 @@ hr {
   }
   100%{
     left: 100%;
+  }
+}
+
+@media (max-width: 700px){
+  footer{
+    bottom: unset;
+  }
+
+  .col {
+    flex-basis: 100%;
+    
+  }
+
+  .col:nth-child(2), .col:nth-child(3) {
+    flex-basis: 100%;
   }
 }
   </style>
