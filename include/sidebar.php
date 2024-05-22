@@ -36,8 +36,8 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title> Stock Control Management System </title>
-  <link rel="icon" href="https://www.freeiconspng.com/uploads/sales-icon-7.png">
+  <title> Saff and Co perfume</title>
+  <link rel="icon" href="../icon/logo-white.webp">
 
   <!-- Custom fonts for this template-->
   <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
