@@ -1,5 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap'); 
 
+/*=================== ROOT ==================*/
+
+
+:root {
+    /*Characters*/
+        --enigmatic: #864e87;
+        --warm_spicy: #ba5c5b;
+        --woody:#795e43;
+        --creamy:#ca9775;
+        --floral:#a262a3;
+        --citrus:rgba(239, 206, 97, 0.667);
+        --ambery:rgba(255, 146, 79, 0.863);
+        --gourmand:#8c548d;
+        --creamy:rgb(241, 204, 100);
+        --aromatic:rgb(80, 182, 68);
+        --sweet:#c277ad;
+        --fresh:rgb(100, 80, 160);
+        --enigmatic:rgb(208, 100, 241);
+        --vanila:#7a71d4;
+        --balsamic:chocolate;
+        --tropical:rgb(232, 184, 51);
+        --fruity:rgb(213, 105, 59);
+        --earthy:rgb(206, 119, 214);
+        --chypre:rgb(237, 209, 134);
+        --leather:rgb(141, 103, 76);
+        --musk:rgb(125, 102, 90);
+        --powdery:rgb(241, 204, 100);
+        --rose:rgb(227, 137, 227);
+        --ambery:rgb(212, 132, 146);
+        --smooky:rgb(174, 125, 174);
+
+        /*Green gradient*/
+  --body-color: linear-gradient(90deg, #61a5a5 0%, #5E1675 100%);
+  --container-color: linear-gradient(136deg, hsl(275, 40%, 26%) 0%, hsl(192, 13%, 16%) 100%);
+      }
+
+
 * {
     padding: o;
     margin: 0;
@@ -8,7 +45,7 @@
 }
 
 body {
-    background-color: beige;
+    background: linear-gradient(90deg, #61a5a5 0%, #5E1675 100%);
     font-family: Poppins;
     display: swap;
     height: auto;
@@ -163,39 +200,26 @@ p span {
 /*character*/
 
 .char-list {
-    display: flex;
-    font-size: 14px;
-    
+    display: flex;  
 }
 
 .char div:not(h4) {
-    color: rgb(128, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 13px;
     
 }
 
 .box {
     border-radius: 20px;
-    margin: 0.2em;
+    margin: 0.3em;
+    padding: 4px;
 }
 
 .box text {
     opacity: 1;
 }
 
-.c1 {
-    background-color: rgba(0, 0, 255, 0.199);
-    border: 1px solid rgba(0, 0, 255, 0.199);
-}
 
-.c2 {
-    background-color: rgba(255, 0, 0, 0.274);
-    border: 1px solid rgba(255, 0, 0, 0.274);
-}
-
-.c3 {
-    background-color: rgba(210, 105, 30, 0.402);
-    border: 1px solid rgba(210, 105, 30, 0.402);
-}
 
 /*======================= Option-Slider =======================*/
 
@@ -260,8 +284,4 @@ color: #444;
 padding-bottom: 4px;
 border-bottom: 3px solid blueviolet;
 }
-
-/*================================ FOOTER ============================*/
-
-
 

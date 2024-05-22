@@ -55,11 +55,11 @@
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;With <mark>Bergamot,</mark> <mark>Mandarin</mark> and <mark>saffron</mark> on the top layer.
+                        &emsp;With Bergamot, Mandarin and saffron on the top layer.
                         <br>
-                        <mark>Ylang-ylang, Lily of the Valley, and Musk</mark> for the middle.
+                        Ylang-ylang, Lily of the Valley, and Musk for the middle.
                         <br>
-                        And also the <mark>Dryamber</mark> <mark>Leather</mark> and <mark>Musk</mark> for the dry down.
+                        And also the Dryamber Leather and Musk for the dry down.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -92,7 +92,7 @@
                                         <text>Musk</text>
                                     </div>
                                     <div class="box c3">
-                                        <text>Smoky</text>
+                                        <text>Smooky</text>
                                     </div>
                                 </div>
                         </div>
@@ -161,6 +161,22 @@
   </footer>
 
   <style>
+
+.c1 {
+    background-color: rgb(141, 103, 76);
+    border: 1px solid rgb(141, 103, 76);
+}
+
+.c2 {
+    background-color: rgb(125, 102, 90);
+    border: 1px solid rgb(125, 102, 90);
+}
+
+.c3 {
+    background-color: rgb(174, 125, 174);
+    border: 1px solid rgb(174, 125, 174);
+}
+
     footer {
     width: 100%;
     position: relative;

@@ -55,11 +55,11 @@
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;With <mark>Pink Peppercorn</mark> <mark>Peony</mark> and <mark>Muguet</mark> on the top layer.
+                        &emsp;With Pink Peppercorn Peony and Muguet on the top layer.
                         <br>
-                        <mark>Ylang-ylang,  Iris, and Hedione</mark> for the middle.
+                        Ylang-ylang,  Iris, and Hedione for the middle.
                         <br>
-                        And also the <mark>Amber</mark> <mark>Cashmeran</mark> and <mark>Amber</mark> for the dry down.
+                        And also the Amber Cashmeran and Amber for the dry down.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -160,6 +160,22 @@
   </footer>
 
   <style>
+
+.c1 {
+    background-color: rgb(213, 105, 59);
+    border: 1px solid rgb(213, 105, 59);
+}
+
+.c2 {
+    background-color: #a262a3;
+    border: 1px solid #a262a3;
+}
+
+.c3 {
+    background-color: rgb(241, 204, 100);
+    border: 1px solid rgb(241, 204, 100);
+}
+
     footer {
     width: 100%;
     position: relative;

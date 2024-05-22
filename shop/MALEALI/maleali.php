@@ -55,11 +55,11 @@
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;We do <mark>Bush Juniper</mark> and <mark>Tellicherry Pepper</mark> on the top layer.
+                        &emsp;We do Bush Juniper and Tellicherry Pepper on the top layer.
                         <br>
-                        <mark>Palo Santo and red Sandalwood</mark> for the middle.
+                        Palo Santo and red Sandalwood for the middle.
                         <br>
-                        And the <mark>Nagarmotha</mark> and <mark>Sulawesi Patchouli</mark> for the dry down.
+                        And the Nagarmotha and Sulawesi Patchouli for the dry down.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -161,6 +161,22 @@
   </footer>
 
   <style>
+
+.c1 {
+    background-color: rgb(312, 105, 59);
+    border: 1px solid rgb(312, 105, 59);
+}
+
+.c2 {
+    background-color: #a262a2;
+    border: 1px solid #a262a2;
+}
+
+.c3 {
+    background-color: #ca9775;
+    border: 1px solid #ca9775;
+}
+
     footer {
     width: 100%;
     position: relative;

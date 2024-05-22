@@ -55,11 +55,11 @@
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;We do <mark>Mandarin,</mark> <mark>Pear</mark> and <mark>Apple</mark> for the top.
+                        &emsp;We do Mandarin, Pear and Apple for the top.
                         <br>
-                        <mark>Heliotrope, Pumetoria, Maltol</mark> and <mark>Gardenia</mark>for the middle.
+                        Heliotrope, Pumetoria, Maltol and Gardeniafor the middle.
                         <br>
-                        And also the <mark>Coconut,</mark> <mark>Musk</mark> and <mark>Sandalwood</mark> as the dry down.
+                        And also the Coconut, Musk and Sandalwood as the dry down.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -161,6 +161,22 @@
   </footer>
 
   <style>
+
+.c1 {
+    background-color: #795e43;
+    border: 1px solid #795e43;
+}
+
+.c2 {
+    background-color: #a262a3;
+    border: 1px solid #a262a3;
+}
+
+.c3 {
+    background-color: #ba5c5b;
+    border: 1px solid #ba5c5b;
+}
+
     footer {
     width: 100%;
     position: relative;

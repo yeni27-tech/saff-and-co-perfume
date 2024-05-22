@@ -55,11 +55,11 @@
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;We use <mark>Starkrimson</mark> and <mark>Galbanum</mark> for the top layer.
+                        &emsp;We use Starkrimson and Galbanum for the top layer.
                         <br>
-                        <mark>Roseraie de i'Hay,</mark> <mark>Bigarade orange,</mark> and <mark>Iris Petilda</mark> for the middle.
+                        Roseraie de i'Hay, Bigarade orange, and Iris Petilda for the middle.
                         <br>
-                        And also the <mark>Ambergris,</mark> <mark>Cashmere wood</mark> and <mark>Fior di Lattte</mark> for the dry down.
+                        And also the Ambergris, Cashmere wood and Fior di Lattte for the dry down.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -161,6 +161,22 @@
   </footer>
 
   <style>
+
+.c1 {
+    background-color: rgba(225, 146, 79, 0.863);
+    border: 1px solid rgba(225, 146, 79, 0.863);
+}
+
+.c2 {
+    background-color: #a262a3;
+    border: 1px solid #a262a3;
+}
+
+.c3 {
+    background-color: #8c548d;
+    border: 1px solid #8c548d;
+}
+
     footer {
     width: 100%;
     position: relative;

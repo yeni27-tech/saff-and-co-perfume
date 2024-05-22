@@ -55,11 +55,11 @@
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;With <mark>Raspberry,</mark> <mark>Passion Fruit,</mark> and <mark>Pear</mark> on the top layer.
+                        &emsp;With Raspberry, Passion Fruit, and Pear on the top layer.
                         <br>
-                        <mark>Cassis Buds and Lily of the Valley</mark> for the middle.
+                        Cassis Buds and Lily of the Valley for the middle.
                         <br>
-                        And also the <mark>Amber</mark> <mark>Patchoulli</mark> and <mark>Heliotrope</mark> for the dry down.
+                        And also the Amber Patchoulli and Heliotrope for the dry down.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -161,6 +161,22 @@
   </footer>
 
   <style>
+
+.c1 {
+    background-color: rgb(213, 105, 59);
+    border: 1px solid rgb(213, 105, 59);
+}
+
+.c2 {
+    background-color: #c277ad;
+    border: 1px solid #c277ad;
+}
+
+.c3 {
+    background-color: rgb(237, 209, 134);
+    border: 1px solid rgb(237, 209, 134);
+}
+
     footer {
     width: 100%;
     position: relative;

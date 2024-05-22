@@ -55,11 +55,11 @@
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;With <mark>Citrus</mark> and <mark>Pear</mark> on the top layer.
+                        &emsp;With Citrus and Pear on the top layer.
                         <br>
-                        <mark>Rose, Orang Blossom, and Freesia</mark> for the middle.
+                        Rose, Orang Blossom, and Freesia for the middle.
                         <br>
-                        And also the <mark>Pathouli,</mark> <mark>Musk</mark> and <mark>Amber</mark> for the dry down note.
+                        And also the Pathouli, Musk and Amber for the dry down note.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -161,6 +161,22 @@
   </footer>
 
   <style>
+
+.c1 {
+    background-color: #c277ad;
+    border: 1px solid #c277ad;
+}
+
+.c2 {
+    background-color: rgb(277, 137, 277);
+    border: 1px solid rgb(277, 137, 277);
+}
+
+.c3 {
+    background-color: rgb(213, 105, 59);
+    border: 1px solid rgb(213, 105, 59);
+}
+
     footer {
     width: 100%;
     position: relative;

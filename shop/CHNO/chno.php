@@ -55,11 +55,11 @@
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;With <mark>Pink Pepper</mark> <mark>Pear</mark> and <mark>Orange Blossom</mark> on top.
+                        &emsp;With Pink Pepper, Pear, and Orange Blossom on top.
                         <br>
-                        <mark>Coffee,  jasmine, Bitter Almond, and Licorice</mark> for the middle layer.
+                        Coffee,  jasmine, Bitter Almond, and Licorice for the middle layer.
                         <br>
-                        And the others four; <mark>Vanilla, Patchouli, Cedar, and Cashmere Wood</mark> as the dry down.
+                        And the others four; Vanilla, Patchouli, Cedar, and Cashmere Wood as the dry down.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -162,6 +162,22 @@
   </footer>
 
   <style>
+
+.c1 {
+    background-color: #7a71d4;
+    border: 1px solid #7a71d4;
+}
+
+.c2 {
+    background-color: #c277ad;
+    border: 1px solid #c277ad;
+}
+
+.c3 {
+    background-color: chocolate;
+    border: 1px solid chocolate;
+}
+
     footer {
     width: 100%;
     position: relative;

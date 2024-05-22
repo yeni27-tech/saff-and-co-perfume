@@ -55,11 +55,11 @@
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;With <mark>Citrus</mark> <mark>Floral</mark> and <mark>Green</mark> on top.
+                        &emsp;With Citrus Floral and Green on top.
                         <br>
-                        <mark>Marine and woody</mark> for the middle layer.
+                        Marine and woody for the middle layer.
                         <br>
-                        And the <mark>Musk and Oriental</mark> as the dry down.
+                        And the Musk and Oriental as the dry down.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -162,6 +162,22 @@
   </footer>
 
   <style>
+
+.c1 {
+    background-color: #795e43;
+    border: 1px solid #795e43;
+}
+
+.c2 {
+    background-color: chocolate;
+    border: 1px solid chocolate;
+}
+
+.c3 {
+    background-color: rgba(239, 206, 97, 0.667);
+    border: 1px solid rgba(239, 206, 97, 0.667);
+}
+
     footer {
     width: 100%;
     position: relative;

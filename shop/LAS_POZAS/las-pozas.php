@@ -55,11 +55,11 @@
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;We do <mark>Datura</mark>on top of the layer.
+                        &emsp;We do Datura on top of the layer.
                         <br>
-                        <mark>Sumatran Benzoin, and Nutmeg</mark> for the middle.
+                        Sumatran Benzoin, and Nutmeg  for the middle.
                         <br>
-                        And also the <mark>Cashmeran</mark> <mark>Cedar</mark> and <mark>Sandalwood</mark> for the dry down.
+                        And also the Cashmeran  Cedar  and Sandalwood  for the dry down.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -164,6 +164,26 @@
   </footer>
 
   <style>
+
+.c1 {
+    background-color: #795e43;
+    border: 1px solid #795e43;
+}
+
+.c2 {
+    background-color: rgb(208, 100, 241);
+    border: 1px solid rgb(208, 100, 241);
+}
+
+.c3 {
+    background-color: #ca9775;
+    border: 1px solid #ca9775;
+}
+.c4 {
+    background-color: #ba5c5b;
+    border: 1px solid #ba5c5b;
+}
+
     footer {
     width: 100%;
     position: relative;

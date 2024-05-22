@@ -54,11 +54,11 @@
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;With <mark>Saffron</mark>and <mark>Orange Blossom</mark> on top.
+                        &emsp;With Saffron and Orange Blossom on top.
                         <br>
-                        <mark>Jasmine,  Violet, and Lily</mark> for the middle layer.
+                        Jasmine,  Violet, and Lily for the middle layer.
                         <br>
-                        And also the <mark>Oakmoss and Ambergriss</mark> as the dry down.
+                        And also the Oakmoss and Ambergriss as the dry down.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -159,7 +159,23 @@
   </footer>
 
   <style>
-    footer {
+
+    .c1 {
+        background-color: #795e43;
+        border: 1px solid #795e43;
+      }
+
+    .c2 {
+      background-color: #ba5c5b;
+      border: 1px solid #ba5c5b;
+      }
+
+    .c3 {
+      background-color: rgb(80, 182, 68);
+      border: 1px solid rgb(80, 182, 68);
+      }
+
+footer {
     width: 100%;
     position: relative;
     bottom: 0;

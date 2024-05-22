@@ -55,11 +55,11 @@
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;With <mark>Mandarin,</mark> <mark>Galbanum</mark> and <mark>Ylang</mark> on the top layer.
+                        &emsp;With Mandarin, Galbanum and Ylang on the top layer.
                         <br>
-                        <mark>Orange Flower, Jasmine, Tuberose</mark> for the middle.
+                        Orange Flower, Jasmine, Tuberose for the middle.
                         <br>
-                        And also the <mark>Vanilla,</mark> <mark>Tonka Bean,</mark> and <mark>Musk</mark> for the dry down.
+                        And also the Vanilla, Tonka Bean, and Musk for the dry down.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -161,6 +161,22 @@
   </footer>
 
   <style>
+
+.c1 {
+    background-color: rgba(239, 206, 97, 0.667);
+    border: 1px solid rgba(239, 206, 97, 0.667);
+}
+
+.c2 {
+    background-color: #a262a3;
+    border: 1px solid #a262a3;
+}
+
+.c3 {
+    background-color: #ca9775;
+    border: 1px solid #ca9775;
+}
+
     footer {
     width: 100%;
     position: relative;

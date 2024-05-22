@@ -55,11 +55,11 @@
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;With <mark>Verbena,</mark> <mark>Green,</mark> and <mark>Aldehydic</mark> on the top layer.
+                        &emsp;With Verbena, Green, and Aldehydic on the top layer.
                         <br>
-                        <mark>Rose, Peony, Lily f the Valley</mark> for the middle.
+                        Rose, Peony, Lily f the Valley for the middle.
                         <br>
-                        And also the <mark>Cedarwood</mark> and <mark>Musk</mark> for the dry down.
+                        And also the Cedarwood and Musk for the dry down.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -161,6 +161,22 @@
   </footer>
 
   <style>
+
+.c1 {
+    background-color: rgb(100, 80, 160);
+    border: 1px solid rgb(100, 80, 160);
+}
+
+.c2 {
+    background-color: #a262a3;
+    border: 1px solid #a262a3;
+}
+
+.c3 {
+    background-color: rgb(232, 184, 51);
+    border: 1px solid rgb(232, 184, 51);
+}
+
     footer {
     width: 100%;
     position: relative;

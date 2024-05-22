@@ -55,11 +55,11 @@
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;With <mark>Bergamot,</mark> <mark>Mandarin,</mark> and <mark>Violet Leaves</mark> on the top layer.
+                        &emsp;With Bergamot, Mandarin, and Violet Leaves on the top layer.
                         <br>
-                        <mark>Orris, Freesia, and Cedarwood</mark> for the middle.
+                        Orris, Freesia, and Cedarwood for the middle.
                         <br>
-                        And also the <mark>Vetiver,</mark> <mark>Amber,</mark> and <mark>Tonka Bean</mark> for the dry down.
+                        And also the Vetiver, Amber, and Tonka Bean for the dry down.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -164,6 +164,27 @@
   </footer>
 
   <style>
+
+.c1 {
+    background-color: rgba(239, 206, 97, 0.667);
+    border: 1px solid rgba(239, 206, 97, 0.667);
+}
+
+.c2 {
+    background-color: #a262a3;
+    border: 1px solid #a262a3;
+}
+
+.c3 {
+    background-color: rgb(206, 119, 214);
+    border: 1px solid rgb(206, 119, 214);
+}
+
+.c4 {
+    background-color: #795e43;
+    border: 1px solid #795e43;
+}
+
     footer {
     width: 100%;
     position: relative;

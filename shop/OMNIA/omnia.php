@@ -55,11 +55,11 @@
 
                   <article id="item2" class="tab-content">
                     <p>
-                        &emsp;We use <mark>Grapefruit</mark> and <mark>Green Notes</mark> on the top layer.
+                        &emsp;We use Grapefruit and Green Notes on the top layer.
                         <br>
-                        <mark>rose, Florl, and Iris</mark> for the middle layer.
+                        rose, Florl, and Iris for the middle layer.
                         <br>
-                        And also the <mark>woody,</mark> <mark>Heliotrope</mark> and <mark>Musk</mark> for the dry down.
+                        And also the woody, Heliotrope and Musk for the dry down.
                     </p>
                   </article>
                   <article id="item3" class="tab-content">
@@ -161,6 +161,22 @@
   </footer>
 
   <style>
+
+.c1 {
+    background-color: rgb(241, 204, 134);
+    border: 1px solid rgb(241, 204, 134);
+}
+
+.c2 {
+    background-color: #c277ad;
+    border: 1px solid #c277ad;
+}
+
+.c3 {
+    background-color: rgb(125, 102, 90);
+    border: 1px solid rgb(125, 102, 90);
+}
+
     footer {
     width: 100%;
     position: relative;
