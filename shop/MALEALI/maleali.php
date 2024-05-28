@@ -19,9 +19,9 @@
 
     <div class="min-content">
         <div class="fadein">
-            <img id="f4" src="../../img/ILIAD/ILIAD-01.6d72b911.webp" style="width: 65vh; height: 65vh;" />
-            <img id="f3" src="../../img/ILIAD/ILIAD-02.1248b953.webp" style="width: 65vh; height: 65vh;" />
-            <img id="f2" src="../../img/ILIAD/ILIAD-03.724c68df.webp" style="width: 65vh; height: 65vh;" />
+            <img id="f4" src="../../img/MALEALI/MALEALI-01.a2366268.webp" style="width: 65vh; height: 65vh;" />
+            <img id="f3" src="../../img/maleali/MALEALI-02.8f29db02.webp" style="width: 65vh; height: 65vh;" />
+            <img id="f2" src="../../img/MALEALI/MALEALI-03.c01a6a5d.webp" style="width: 65vh; height: 65vh;" />
         </div>
     </div>
 
@@ -162,6 +162,11 @@
 
   <style>
 
+body {
+  background: linear-gradient(150deg, #ffaf47 0%, #fff2e3 100%)
+}
+
+
 .c1 {
     background-color: rgb(312, 105, 59);
     border: 1px solid rgb(312, 105, 59);
@@ -181,7 +186,7 @@
     width: 100%;
     position: relative;
     bottom: 0;
-    background: linear-gradient(to right, #00093c, #2d0b00);
+    background: black;
     color: #fff;
     padding: 50px 100px 20px;
     border-top-left-radius: 125px;

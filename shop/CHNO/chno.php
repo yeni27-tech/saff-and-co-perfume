@@ -162,6 +162,9 @@
   </footer>
 
   <style>
+body {
+  background: linear-gradient(90deg,  #f7a7fa 0%, #a7e0fa 100%);
+}
 
 .c1 {
     background-color: #7a71d4;
@@ -182,7 +185,7 @@
     width: 100%;
     position: relative;
     bottom: 0;
-    background: linear-gradient(to right, #00093c, #2d0b00);
+    background: black;
     color: #fff;
     padding: 50px 100px 20px;
     border-top-left-radius: 125px;

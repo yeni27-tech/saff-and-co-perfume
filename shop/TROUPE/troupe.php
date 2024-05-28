@@ -162,6 +162,10 @@
 
   <style>
 
+body {
+  background: linear-gradient(225deg, #8accff 0%, #ffabe9 100%) 
+}
+
 .c1 {
     background-color: #c277ad;
     border: 1px solid #c277ad;
@@ -181,7 +185,7 @@
     width: 100%;
     position: relative;
     bottom: 0;
-    background: linear-gradient(to right, #00093c, #2d0b00);
+    background: black;
     color: #fff;
     padding: 50px 100px 20px;
     border-top-left-radius: 125px;

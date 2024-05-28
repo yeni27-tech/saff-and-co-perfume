@@ -162,6 +162,10 @@
 
   <style>
 
+body {
+  background: radial-gradient(grey, white);
+}
+
 .c1 {
     background-color: rgb(141, 103, 76);
     border: 1px solid rgb(141, 103, 76);
@@ -181,7 +185,7 @@
     width: 100%;
     position: relative;
     bottom: 0;
-    background: linear-gradient(to right, #00093c, #2d0b00);
+    background: black;
     color: #fff;
     padding: 50px 100px 20px;
     border-top-left-radius: 125px;

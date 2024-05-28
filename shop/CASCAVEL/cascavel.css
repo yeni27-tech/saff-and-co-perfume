@@ -45,7 +45,7 @@
 }
 
 body {
-    background: linear-gradient(90deg, #61a5a5 0%, #5E1675 100%);
+   
     font-family: Poppins;
     display: swap;
     height: auto;
@@ -243,7 +243,7 @@ justify-content: space-between;
 }
 
  li a {
-color: #e06969;
+color: #550000;
 }
 
  li a:hover {
@@ -284,4 +284,5 @@ color: #444;
 padding-bottom: 4px;
 border-bottom: 3px solid blueviolet;
 }
+
 
