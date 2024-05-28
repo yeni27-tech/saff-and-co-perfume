@@ -21,8 +21,11 @@
                                             <input type="text" name="quantity" class="form-control" value="1" />
                                             <input type="hidden" name="name" value="<?php echo $product['NAME']; ?>" />
                                             <input type="hidden" name="price" value="<?php echo $product['PRICE']; ?>" />
-                                            <input type="submit" name="addpos" style="margin-top:5px;" class="btn btn-info"
-                                            value="Add" />
+                                            <div class="between">
+                                            <input type="submit" name="addpos" class="btn btn-info"
+                                                    value="Add" />
+                                            <a href="../shop/COCO/coco.php">Description</a>        
+                                                  </div>
                                           </div>
                                       </form>
                                   </div>
@@ -101,6 +104,34 @@
 
 .caracter0 .aromatic {
   background-color: var(--balsamic) ;
+}
+
+.between {
+  align-items: center;
+  margin-top: 5px;
+  display: flex;
+}
+
+.between a {
+  text-decoration: none;
+  list-style-type: none;
+  background-color:gray ;
+  color:  white;
+  padding: 0.4em;
+  margin-left: 5px;
+  border-radius: 5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+}
+
+.between input, a:hover{
+  transition: all 0.4s ease-in-out;
+}
+
+.between a:hover {
+  background-color: hsl(0, 0%, 13%) ;
 }
 
                 </style>
