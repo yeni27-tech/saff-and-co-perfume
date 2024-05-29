@@ -89,7 +89,7 @@
                                     </p>
 
                                     <div class="home__buttons">
-                                        <a href="#" class="button">Learn More</a>
+                                        <a href="./shop/LAS_POZAS/las-pozas.php" class="button">Learn More</a>
                                         <a href="#" class="button--link button--flex">Swipe <i class='bx bx-right-arrow-alt button__icon'></i></a>
                                     </div>
                                 </div>
@@ -118,7 +118,7 @@
                                     </p>
 
                                     <div class="home__buttons">
-                                        <a href="#" class="button">Learn More</a>
+                                        <a href="./shop/SOTB/sotb.php" class="button">Learn More</a>
                                         <a href="#" class="button--link button--flex">Swipe <i class='bx bx-right-arrow-alt button__icon'></i></a>
                                     </div>
                                 </div>
@@ -147,7 +147,7 @@
                                     </p>
 
                                     <div class="home__buttons">
-                                        <a href="#" class="button">Buy Now</a>
+                                        <a href="./shop/MINOUET/minouet.php" class="button">Buy Now</a>
                                         <a href="#" class="button--link button--flex">Swipe <i class='bx bx-right-arrow-alt button__icon'></i></a>
                                     </div>
                                 </div>

@@ -15,7 +15,7 @@
       background: linear-gradient(90deg, #61a5a5 0%, #5E1675 100%);
     }
     .container {
-      max-width: 1200px;
+      max-width: 50rem;
       margin: 0 auto;
       padding: 20px;
       
@@ -24,6 +24,7 @@
     h1 {
       text-align: center;
       margin-bottom: 40px;
+      color: white;
     }
     .form-group {
       margin-bottom: 20px;
@@ -41,8 +42,8 @@
       padding: 10px;
       box-sizing: border-box;
       border-radius: 10px;
-      background: #000;
-      color: white;
+      background: white;
+      color: gray;
       border: 1px solid white;
     }
     .perfume-list {

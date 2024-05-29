@@ -3,6 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="../includes.css/nav-category.css">
+  <link rel="icon" href="../icon/logo-black.png">
 </head>
 <body>
 
