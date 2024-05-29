@@ -132,7 +132,6 @@
 
     </div>
 
-
     <footer>
     <div class="row">
        <div class="col">
