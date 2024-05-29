@@ -37,8 +37,8 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Stock Control Management System </title>
-  <link rel="icon" href="https://www.freeiconspng.com/uploads/sales-icon-7.png">
+  <title>Saff and Co Perfume </title>
+  <link rel="icon" href="../icon/logo-white.webp">
 
   <!-- Custom fonts for this template-->
   <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -71,7 +71,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Stock Control Management System</div>
+        <div class="sidebar-brand-text mx-3">Saff and Co Perfume</div>
       </a>
 
           <!-- Topbar Navbar -->
