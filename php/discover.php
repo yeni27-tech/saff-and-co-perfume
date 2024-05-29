@@ -69,8 +69,8 @@
   <div class="container">
     <h1>Discover Perfumes</h1>
     <div class="form-group">
-      <label for="place">Favorite Place</label>
-      <input type="text" id="place" placeholder="e.g., Beach, Mountain, City">
+      <label for="place">Fascinated Place</label>
+      <input type="text" id="place" placeholder="Lake, Beach, Mountain, City">
     </div>
     <div class="form-group">
       <label for="season">Preferred Season</label>
@@ -83,21 +83,32 @@
       </select>
     </div>
     <div class="form-group">
-      <label for="drink">Favorite Drink</label>
-      <input type="text" id="drink" placeholder="e.g., Coffee, Tea, Wine">
+      <label for="drink">Preffered Drink</label>
+      <input type="text" id="drink" placeholder="Hot Chocolate, Citrus Juice, Herbal Tea, Espresso">
     </div>
-    <button id="find-perfume">Find Perfume</button>
+    <button id="find-perfume">Find Your Perfume</button>
 
     <div id="perfume-list" class="perfume-list"></div>
   </div>
 
   <script>
     const perfumes = [
-      { name: "CASCAVEL", characteristics: ["Wrm Spicy", "Aromatic", "Woody"], attributes: { place: "Beach", season: "Summer", drink: "Citrus Juice" } },
-      { name: "CHNO", characteristics: ["Vanila", "Sweet", "Balsamic"], attributes: { place: "Mountain", season: "Winter", drink: "Hot Chocolate" } },
-      { name: "COCO", characteristics: ["Citrus", "Woody", "Balsamic"], attributes: { place: "Garden", season: "Spring", drink: "Herbal Tea" } },
-      { name: "ILIAD", characteristics: ["Fruity", "Floral", "Creamy"], attributes: { place: "Lake", season: "Summer", drink: "Mint Lemonade" } },
-      { name: "LAS POZAZ", characteristics: ["Enigmatic", "Woody", "Warm Spicy"], attributes: { place: "City", season: "Autumn", drink: "Espresso" } },
+      { name: "CASCAVEL", characteristics: ["Warm Spicy", "Aromatic", "Woody"], attributes: { place: "Lake", season: "Autumn", drink: "Citrus Juice" } },
+      { name: "CHNO", characteristics: ["Vanila", "Sweet", "Balsamic"], attributes: { place: "Garden", season: "Spring", drink: "Hot Chocolate" } },
+      { name: "COCO", characteristics: ["Citrus", "Woody", "Balsamic"], attributes: { place: "Mountain", season: "Summer", drink: "Herbal Tea" } },
+      { name: "ILIAD", characteristics: ["Fruity", "Floral", "Creamy"], attributes: { place: "Garden", season: "Summer", drink: "Mint Lemonade" } },
+      { name: "LAS POZAS", characteristics: ["Enigmatic", "Woody", "Warm Spicy"], attributes: { place: "City", season: "Autumn", drink: "Espresso" } },
+      { name: "LOUI", characteristics: ["Fresh", "Floral", "Tropical"], attributes: { place: "Mountain", season: "Autumn", drink: "Mint Lemonade" } },
+      { name: "MALEALI", characteristics: ["Earthy", "Woody", "Musk"], attributes: { place: "Lake", season: "Summer", drink: "Herbal Tea" } },
+      { name: "MINOUET", characteristics: ["Floral", "Ambery", "Gourmand"], attributes: { place: "Lake", season: "winter", drink: "Citrus juice" } },
+      { name: "OMNIA", characteristics: ["Powdery", "Sweet", "Musk"], attributes: { place: "Garden", season: "winter", drink: "Espresso" } },
+      { name: "OSTARA", characteristics: ["Sweet", "Fruity", "Earthy"], attributes: { place: "Beach", season: "spring", drink: "Hot chocolate" } },
+      { name: "SAFF", characteristics: ["Leather", "Musk", "Smoky"], attributes: { place: "City", season: "spring", drink: "Mint Lemonade" } },
+      { name: "SOLARIS", characteristics: ["Citrus", "Floral", "Woody", "Earthy"], attributes: { place: "City", season: "Autumn", drink: "Citrus Juice" } },
+      { name: "S.O.T.B", characteristics: ["Citrus", "Floral", "Creamy"], attributes: { place: "Beach", season: "winter", drink: "Citrus Juice" } },
+      { name: "TROPUE", characteristics: ["Sweet", "Rose", "Fruity"], attributes: { place: "Garden", season: "spring", drink: "Mint Lemonade" } },
+      { name: "XOCOLATL", characteristics: ["Floral", "Woody", "Warm Spicy"], attributes: { place: "Lake", season: "Autumn", drink: "Herbal Tea" } },
+    
       // Add more perfumes as needed
     ];
 
