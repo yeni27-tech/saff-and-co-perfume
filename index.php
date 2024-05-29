@@ -90,7 +90,7 @@
 
                                     <div class="home__buttons">
                                         <a href="#" class="button">Learn More</a>
-                                        <a href="#" class="button--link button--flex">Next Slide <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                                        <a href="#" class="button--link button--flex">Swipe <i class='bx bx-right-arrow-alt button__icon'></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -119,7 +119,7 @@
 
                                     <div class="home__buttons">
                                         <a href="#" class="button">Learn More</a>
-                                        <a href="#" class="button--link button--flex">Next Slide <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                                        <a href="#" class="button--link button--flex">Swipe <i class='bx bx-right-arrow-alt button__icon'></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -147,8 +147,8 @@
                                     </p>
 
                                     <div class="home__buttons">
-                                        <a href="#" class="button">Book Now</a>
-                                        <a href="#" class="button--link button--flex">Track Record <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                                        <a href="#" class="button">Buy Now</a>
+                                        <a href="#" class="button--link button--flex">Swipe <i class='bx bx-right-arrow-alt button__icon'></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -165,7 +165,7 @@
                 <div class="category__container container grid">
                     <div class="category__data">
                         <img src="assets/img/category1-img.png" alt="" class="category__img">
-                        <h3 class="category__title">LAS POZAZ</h3>
+                        <h3 class="category__title">LAS POZAS</h3>
                         <p class="category__description">A person who appreciates the peace and beauty of nature, and has an interest in mysterious and profound things. They may have introspective personalities and appreciate moments when they can connect with nature deeply.</p>
                     </div> 
 
@@ -177,7 +177,7 @@
 
                     <div class="category__data">
                         <img src="assets/img/category3-img.png" alt="" class="category__img">
-                        <h3 class="category__title">MINOUE</h3>
+                        <h3 class="category__title">MINOUET</h3>
                         <p class="category__description">Expression of free, adventurous, and inspiring individuals. They express freedom, a spirit of adventure, and exude an aura that motivates others.</p>
                     </div>
                 </div>
@@ -199,7 +199,7 @@
 
             <!--==================== TRICK OR TREAT ====================-->
             <section class="section trick" id="trick">
-                <h2 class="section__title">TOP 10</h2>
+                <h2 class="section__title">#6 POPULAR</h2>
 
                 <div class="trick__container container grid">
                     <div class="trick__content">
@@ -218,7 +218,7 @@
 
                     <div class="trick__content">
                         <img src="./img/ILIAD/Iliad.77637bcb.webp" alt="" class="trick__img">
-                        <h3 class="trick__title">Ilia</h3>
+                        <h3 class="trick__title">Iliad</h3>
                         <span class="trick__subtitle"></span>
                         <span class="trick__price"></span>
                     </div>
@@ -328,7 +328,7 @@
                         
                         <ul class="footer__links">
                             <li>
-                                <a href="./php/login.php" class="footer__link">Shop All</a>
+                                <a href="./php/login.php" class="footer__link">Shop</a>
                             </li>
                             <li>
                                 <a href="./php/discover.php" class="footer__link">Discover</a>
