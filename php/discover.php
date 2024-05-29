@@ -4,25 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shorcut icon" type="image/x-icon" href="../icon/logo-black.png">
-  <title>Saff and CO Perfume</title>
+  <title>Discover - SAFF & CO.</title>
   <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap'); 
+
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
+      font-family: Poppins;
       margin: 0;
       padding: 0;
+      background: linear-gradient(90deg, #61a5a5 0%, #5E1675 100%);
     }
     .container {
       max-width: 1200px;
       margin: 0 auto;
       padding: 20px;
+      
     }
+    
     h1 {
       text-align: center;
       margin-bottom: 40px;
     }
     .form-group {
       margin-bottom: 20px;
+      background: linear-gradient(50deg, #61a5a5 0%, #5E1675 100%);
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid black;
     }
     .form-group label {
       display: block;
@@ -32,6 +40,10 @@
       width: 100%;
       padding: 10px;
       box-sizing: border-box;
+      border-radius: 10px;
+      background: #000;
+      color: white;
+      border: 1px solid white;
     }
     .perfume-list {
       display: flex;
@@ -42,7 +54,7 @@
     }
     .perfume-item {
       background-color: white;
-      border: 1px solid #ddd;
+      border: 1px solid #fff;
       border-radius: 8px;
       padding: 20px;
       width: 200px;
@@ -58,24 +70,31 @@
       padding: 0;
     }
     .perfume-item ul li {
-      background-color: #f0f0f0;
+      background-color: linear-gradient(136deg, hsl(275, 40%, 26%) 0%, hsl(192, 13%, 16%) 100%);
       margin: 5px 0;
       padding: 5px;
       border-radius: 4px;
+    }
+
+    button {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      border-radius: 10px;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Discover Perfumes</h1>
+    <h1>Discover Your Scent</h1>
     <div class="form-group">
       <label for="place">Fascinated Place</label>
-      <input type="text" id="place" placeholder="Lake, Beach, Mountain, City">
+      <input type="text" id="place" placeholder="Lake / Beach / Mountain / Garden / City">
     </div>
     <div class="form-group">
       <label for="season">Preferred Season</label>
       <select id="season">
-        <option value="">Select a season</option>
+        <option value="">Select a Season</option>
         <option value="Summer">Summer</option>
         <option value="Winter">Winter</option>
         <option value="Spring">Spring</option>
@@ -84,7 +103,7 @@
     </div>
     <div class="form-group">
       <label for="drink">Preffered Drink</label>
-      <input type="text" id="drink" placeholder="Hot Chocolate, Citrus Juice, Herbal Tea, Espresso">
+      <input type="text" id="drink" placeholder="Hot Chocolate / Citrus Juice / Herbal Tea / Espresso / Mint Lemonade">
     </div>
     <button id="find-perfume">Find Your Perfume</button>
 
