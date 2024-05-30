@@ -30,7 +30,7 @@
         <div class="des">
             <section class="container">
                 <ul class="tabs">
-                  <li class="tab-item1" color="white">
+                  <li class="tab-item1">
                     <a href="#item1" class="active1">About</a>
                   </li>
                   <li class="tab-item1">
@@ -159,6 +159,11 @@
   <style>
 body {
   background: linear-gradient(90deg,  #A34343 0%, #E9C874 100%);
+  color: white;
+}
+
+.description {
+  color:white;
 }
 
 li {
