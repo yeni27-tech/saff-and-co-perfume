@@ -1,4 +1,4 @@
-<img src="../">
+<img src="./icon/Screenshot 2024-05-22 145704.png">
 # saff-and-co-perfume
 TUGAS AKHIR SMESTER 2<BR>
 KELAS: X - PPPLG2<br>
