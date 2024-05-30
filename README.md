@@ -16,6 +16,10 @@ KELOMPOK:<br>
 3. buat database dengan nama scms lalu import database yang
    terdapat pada folder Saff and co
 
+.<br>
+.<br>
+.<br>
+
 <b>------> CARA MASUK KE HALAMAN ADMIN KETIKA DI POS<-----------</b>
 1. klik text saff and co disebelah logo saff and co pada navbar pos
 2. masukan katasandi admin 
@@ -38,6 +42,6 @@ sandi   :user<br>
 semua tombol pada web fungsional
 
 
-   SELAMAT BERPETUALANG~
+   <h1>SELAMAT BERPETUALANG~</h1>
 
    --©Yeni Faturohmah & Khalila Puspita 2024
