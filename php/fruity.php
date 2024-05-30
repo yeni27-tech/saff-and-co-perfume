@@ -111,6 +111,12 @@ function scrollFunction() {
                   <div class="card shadow mb-0">
                         <!-- /.panel-heading -->
                         <div class="card-body">
+                          <style>
+                                .card-body {
+                                    display: flex;
+                                    
+                                }
+                            </style>
                             <!-- Nav tabs -->
                                <ul class="nav nav-tabs" style="margin: 10px;">
                               <li class="nav-item" style="margin: 10px">

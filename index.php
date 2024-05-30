@@ -363,7 +363,7 @@
                         
                         <ul class="footer__links">
                             <li>
-                                <a href="#" class="footer__link">About</a>
+                                <a href="#about" class="footer__link">About</a>
                             </li>
                         </ul>
                     </div>

@@ -10,7 +10,7 @@
                                       ?>
 
                                       <form method="post" action="pos.php?action=add&id=<?php echo $product['PRODUCT_ID']; ?>">
-                                       <div class="caracter0">
+                                       <div class="character5">
                                     <a class="border warm" href="#">Enigmatic</a>
                                     <a class="border woody" href="#">Woody</a>
                                     <a class="border warm2" href="#">Warm Spicy</a>
@@ -69,13 +69,13 @@
   --color: #ffff;
 }
 
-.caracter0 {
+.character5 {
   font-size: 10px;
   background:rgb(255, 255, 255);
   padding-bottom: 20px; /* Mencegah konten tumpah keluar dari div */
 }
 
-.caracter0 a {
+.character5 a {
   color: var(--color);
   font-family: 'Poppins', sans-serif;
   padding: 0.2rem;
@@ -84,7 +84,7 @@
 
 
 /*border*/
-.caracter0 .border {
+.character5 .border {
   border-radius:50px;
   border: 2px solid white;
   -webkit-border-radius:50px;
@@ -94,19 +94,19 @@
   margin-top: 10px;
 }
 
-.caracter0 .warm {
+.character5 .warm {
   background-color: var(--enigmatic);
 }
 
-.caracter0 .woody {
+.character5 .woody {
   background-color: var(--woody);
 }
 
-.caracter0 .aromatic {
+.character5 .aromatic {
   background-color: var(--creamy) ;
 }
 
-.caracter0 .warm2 {
+.character5 .warm2 {
   background-color:  var(--warm_spicy);
 }
 

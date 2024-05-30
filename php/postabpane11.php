@@ -10,7 +10,7 @@
                                     ?>
 
                                     <form method="post" action="./pos.php?action=add&id=<?php echo $product['PRODUCT_ID']; ?>">
-                                     <div class="caracter0">
+                                     <div class="caracter9">
                                     <a class="border warm" href="#">Citrus</a>
                                     <a class="border woody" href="#">Floral</a>
                                     <a class="border aromatic" href="#">Creamy</a>
@@ -34,7 +34,7 @@
                                     ?>
                                 </div>
 
-                                                             <style>
+<style>
                   /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
 
@@ -68,13 +68,13 @@
   --color: #ffff;
 }
 
-.caracter0 {
+.caracter9 {
   font-size: 10px;
   background:rgb(255, 255, 255);
   padding-bottom: 20px; /* Mencegah konten tumpah keluar dari div */
 }
 
-.caracter0 a {
+.caracter9 a {
   color: var(--color);
   font-family: 'Poppins', sans-serif;
   padding: 0.2rem;
@@ -83,7 +83,7 @@
 
 
 /*border*/
-.caracter0 .border {
+.caracter9 .border {
   border-radius:50px;
   border: 2px solid white;
   -webkit-border-radius:50px;
@@ -93,16 +93,16 @@
   margin-top: 10px;
 }
 
-.caracter0 .warm {
-  background-color: var(--citrus);
+.caracter9 .warm {
+  background-color: rgba(239, 206, 97, 0.667);
 }
 
-.caracter0 .woody {
-  background-color: var(--floral);
+.caracter9 .woody {
+  background-color: #795e43;
 }
 
-.caracter0 .aromatic {
-  background-color: var(--creamy) ;
+.caracter9 .aromatic {
+  background-color: rgb(80, 182, 68);
 }
 
 
@@ -133,4 +133,5 @@
 .between a:hover {
   background-color: hsl(0, 0%, 13%) ;
 }
+
                 </style>

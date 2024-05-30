@@ -116,6 +116,10 @@ function scrollFunction() {
                                     display: flex;
                                     
                                 }
+                                li {
+                                  list-style-type: none;
+                                  text-decoration: none;
+                                }
                             </style>
                             <!-- Nav tabs -->
                             <ul class="nav nav-tabs" style="margin: 10px;">
@@ -128,27 +132,6 @@ function scrollFunction() {
                                   <img src="../img/COCO//Coco.e5b3303d.webp" alt="" width="330rem">
                                   </a>
                                   <?php include './postabpane3.php'; ?>
-                              </li>
-                              <li class="nav-item" style="margin: 10px">
-                                <a class="nav-link" href="#sob" data-toggle="tab">
-                                  <div class="judul">S.O.T.B</div>
-                                  <div class="hoverimg">
-                                  <img src="../img/S.O.T.B/SOTB-01.60e6f63e.webp" width="330rem">
-                                  </div>
-                                  <img src="../img/S.O.T.B/S.O.T.B.ccb7b148.webp" alt="" width="330rem">
-                                  </a>
-                                  <?php include './postabpane11.php'; ?>
-                              </li>
-                           
-                             <li class="nav-item" style="margin: 10px">
-                                <a class="nav-link" href="#solaris" data-toggle="tab">
-                                  <div class="judul">SOLARIS</div>
-                                  <div class="hoverimg">
-                                  <img src="../img/SOLARIS/SOLARIS-01.923b5d7a.webp" width="330rem">
-                                  </div>
-                                  <img src="../img/SOLARIS/Solaris.3f60a687.webp" alt="" width="330rem">
-                                  </a>
-                                  <?php include './postabpane13.php'; ?>
                               </li>
                             </ul>
                         </div>

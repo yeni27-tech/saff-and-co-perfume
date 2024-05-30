@@ -10,10 +10,10 @@
                                     ?>
                                     
                                     <form method="post" action="pos.php?action=add&id=<?php echo $product['PRODUCT_ID']; ?>">
-                                     <div class="caracter0">
-                                    <a class="border warm" href="#">Vanila</a>
-                                    <a class="border woody" href="#">Sweet</a>
-                                    <a class="border aromatic" href="#">Balsamic</a>
+                                     <div class="caracter2">
+                                    <a class="border warm" href="./vanila.php">Vanila</a>
+                                    <a class="border woody" href="./sweet.php">Sweet</a>
+                                    <a class="border aromatic" href="./balsamic.php">Balsamic</a>
                                     </div>    
                                     <div class="products">
                                             <h6 class="text-info"><?php echo $product['NAME']; ?></h6>
@@ -68,13 +68,13 @@
   --color: #ffff;
 }
 
-.caracter0 {
+.caracter2 {
   font-size: 10px;
   background:rgb(255, 255, 255);
   padding-bottom: 20px; /* Mencegah konten tumpah keluar dari div */
 }
 
-.caracter0 a {
+.caracter2 a {
   color: var(--color);
   font-family: 'Poppins', sans-serif;
   padding: 0.2rem;
@@ -83,7 +83,7 @@
 
 
 /*border*/
-.caracter0 .border {
+.caracter2 .border {
   border-radius:50px;
   border: 2px solid white;
   -webkit-border-radius:50px;
@@ -93,15 +93,15 @@
   margin-top: 10px;
 }
 
-.caracter0 .warm {
+.caracter2 .warm {
   background-color: var(--vanila);
 }
 
-.caracter0 .woody {
+.caracter2 .woody {
   background-color: var(--sweet);
 }
 
-.caracter0 .aromatic {
+.caracter2 .aromatic {
   background-color: var(--balsamic) ;
 }
 
