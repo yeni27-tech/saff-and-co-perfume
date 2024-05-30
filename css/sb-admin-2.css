@@ -2751,13 +2751,13 @@ fieldset:disabled a.btn {
 
 .btn-warning {
   color: #fff;
-  background-color: #f6c23e;
-  border-color: #f6c23e;
+  background-color: #f6c23e9b;
+  border-color: #c18e0c;
 }
 
 .btn-warning:hover {
   color: #fff;
-  background-color: #f4b619;
+  background-color: #fed671;
   border-color: #f4b30d;
 }
 
