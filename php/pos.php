@@ -311,7 +311,7 @@ function scrollFunction() {
         <br/>  
         <div class="card shadow mb-4 col-md-12">
         <div class="card-header py-3 bg-white">
-          <h4 class="m-2 font-weight-bold text-primary">Point of Sale</h4>
+          <h4 class="m-2 font-weight-bold text-primary">Cart</h4>
         </div>
         
       <div class="row">    

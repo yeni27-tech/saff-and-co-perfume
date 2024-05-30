@@ -22,7 +22,7 @@ $sql = "SELECT CUST_ID, FIRST_NAME, LAST_NAME
 $res = mysqli_query($db, $sql) or die ("Error SQL: $sql");
 
 $opt = "<select class='form-control'  style='border-radius: 0px;' name='customer' required>
-        <option value='' disabled selected hidden>Select Customer</option>";
+        <option value='' disabled selected hidden>Name</option>";
   while ($row = mysqli_fetch_assoc($res)) {
     $opt .= "<option value='".$row['CUST_ID']."'>".$row['FIRST_NAME'].' '.$row['LAST_NAME']."</option>";
   }

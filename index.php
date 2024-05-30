@@ -190,7 +190,7 @@
                         <h1 class="section__title about__title">Constellation of Senses</h1>
                         <p class="about__description">Didirikan di Jakarta pada tahun 2020, SAFF & Co. membuat wewangian yang beresonansi dengan hati Indonesia yang bersemangat dan semangat yang berkembang. Selami dunia di mana tren kontemporer bertemu dengan aroma abadi, dan biarkan setiap semprotan menyalakan kenangan terbaik Anda.
                         </p>
-                        <a href="./html/shop.html" class="button">Shop</a>
+                        <a href="./php/pos.php" class="button">Shop</a>
                     </div>
 
                     <img src="./img/SAFF/SAFF-02.b4c26c01.webp" alt="" class="about__img">
