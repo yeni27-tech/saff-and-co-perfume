@@ -1,6 +1,5 @@
 <?php
 include '../include/connection.php';
-
 include '../include/sidebar.php';
 ?><?php 
 

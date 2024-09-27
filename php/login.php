@@ -54,7 +54,7 @@
                       Login to SAFF & CO
                     </h1>
                   </div>
-                  <form class="user" role="form" action="processlogin.php" method="post">
+              <form class="user" role="form" action="processlogin.php" method="post">    
                     <div class="form-group">
                         <input class="form-control form-control-user" placeholder="Username" name="user" type="text" autofocus>
                     </div>

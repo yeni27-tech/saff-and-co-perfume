@@ -11,8 +11,6 @@
                                       <form method="post" action="pos.php?action=add&id=<?php echo $product['PRODUCT_ID']; ?>">
                                       <div class="caracter0">
                                     <a class="border warm" href="#">Warm Spicy</a>
-                                    <a class="border woody" href="#">Woody</a>
-                                    <a class="border aromatic" href="#">Aromatic</a>
                                     </div>
                                           <div class="products">
                                             <h6 class="text-info"><?php echo $product['NAME']; ?></h6>
